@@ -36,6 +36,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = global::virtualKeyBoard.Properties.Resources.redkey;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(288, 80);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -43,6 +44,8 @@
             this.Opacity = 0.7D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form1";
+            this.TopMost = true;
+            this.TransparencyKey = System.Drawing.Color.White;
             this.Click += new System.EventHandler(this.Form1_Click);
             this.DoubleClick += new System.EventHandler(this.Form1_DoubleClick);
             this.ResumeLayout(false);
