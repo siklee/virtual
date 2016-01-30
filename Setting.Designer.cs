@@ -70,12 +70,13 @@
             this.button5.TabIndex = 4;
             this.button5.Text = "종료";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // Setting
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(163, 136);
+            this.ClientSize = new System.Drawing.Size(159, 132);
             this.ControlBox = false;
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button3);
