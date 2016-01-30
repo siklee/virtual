@@ -8,3 +8,4 @@ C:\Users\USER\Desktop\workspace\c#\virtualkeyboard\virtualKeyBoard\obj\Debug\vir
 C:\Users\USER\Desktop\workspace\c#\virtualkeyboard\virtualKeyBoard\obj\Debug\virtualKeyBoard.csprojResolveAssemblyReference.cache
 C:\Users\USER\Desktop\workspace\c#\virtualkeyboard\virtualKeyBoard\obj\Debug\virtualKeyBoard.Controler.resources
 C:\Users\USER\Desktop\workspace\c#\virtualkeyboard\virtualKeyBoard\obj\Debug\virtualKeyBoard.Setting.resources
+C:\Users\USER\Desktop\workspace\c#\virtualkeyboard\virtualKeyBoard\obj\Debug\virtualKeyBoard.KeyBoard.resources

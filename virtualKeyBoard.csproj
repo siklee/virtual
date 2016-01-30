@@ -69,6 +69,9 @@
     <EmbeddedResource Include="Controler.resx">
       <DependentUpon>Controler.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="KeyBoard.resx">
+      <DependentUpon>KeyBoard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Setting.resx">
       <DependentUpon>Setting.cs</DependentUpon>
     </EmbeddedResource>

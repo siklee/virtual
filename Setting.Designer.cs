@@ -28,20 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.add = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // add
             // 
-            this.button1.Location = new System.Drawing.Point(0, 1);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(168, 30);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "키보드 추가";
-            this.button1.UseVisualStyleBackColor = true;
+            this.add.Location = new System.Drawing.Point(0, 1);
+            this.add.Name = "add";
+            this.add.Size = new System.Drawing.Size(168, 30);
+            this.add.TabIndex = 0;
+            this.add.Text = "키보드 추가";
+            this.add.UseVisualStyleBackColor = true;
+            this.add.Click += new System.EventHandler(this.add_Click);
             // 
             // button2
             // 
@@ -79,7 +80,7 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.add);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Location = new System.Drawing.Point(288, 0);
             this.MaximizeBox = false;
@@ -94,7 +95,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button add;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button5;
