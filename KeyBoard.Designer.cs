@@ -44,7 +44,6 @@
             this.wkey.TabIndex = 0;
             this.wkey.Text = "W키";
             this.wkey.UseVisualStyleBackColor = false;
-            this.wkey.Click += new System.EventHandler(this.button1_Click);
             // 
             // space
             // 
@@ -81,6 +80,7 @@
             this.ckey.TabIndex = 4;
             this.ckey.Text = "C";
             this.ckey.UseVisualStyleBackColor = true;
+            this.ckey.Click += new System.EventHandler(this.ckey_Click);
             // 
             // KeyBoard
             // 
