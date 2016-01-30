@@ -1,6 +1,6 @@
 ﻿namespace virtualKeyBoard
 {
-    partial class Form3
+    partial class KeyBoard
     {
         /// <summary>
         /// Required designer variable.

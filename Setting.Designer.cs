@@ -1,6 +1,6 @@
 ﻿namespace virtualKeyBoard
 {
-    partial class Setting
+    partial  class Setting
     {
         /// <summary>
         /// Required designer variable.
@@ -70,20 +70,21 @@
             this.button5.Text = "종료";
             this.button5.UseVisualStyleBackColor = true;
             // 
-            // Form2
+            // Setting
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(167, 140);
+            this.ClientSize = new System.Drawing.Size(163, 136);
             this.ControlBox = false;
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Location = new System.Drawing.Point(288, 0);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form2";
+            this.Name = "Setting";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.TopMost = true;
