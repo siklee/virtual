@@ -1,6 +1,6 @@
 ﻿namespace virtualKeyBoard
 {
-    partial class Form1
+    partial class Controler
     {
         /// <summary>
         /// 필수 디자이너 변수입니다.
@@ -30,7 +30,7 @@
         {
             this.SuspendLayout();
             // 
-            // Form1
+            // Controler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -40,7 +40,7 @@
             this.ClientSize = new System.Drawing.Size(288, 80);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "Controler";
             this.Opacity = 0.7D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form1";

@@ -1,9 +1,10 @@
 C:\Users\USER\Desktop\workspace\c#\virtualKeyBoard\virtualKeyBoard\bin\Debug\virtualKeyBoard.exe.config
 C:\Users\USER\Desktop\workspace\c#\virtualkeyboard\virtualKeyBoard\bin\Debug\virtualKeyBoard.exe
 C:\Users\USER\Desktop\workspace\c#\virtualkeyboard\virtualKeyBoard\bin\Debug\virtualKeyBoard.pdb
-C:\Users\USER\Desktop\workspace\c#\virtualkeyboard\virtualKeyBoard\obj\Debug\virtualKeyBoard.Form1.resources
 C:\Users\USER\Desktop\workspace\c#\virtualkeyboard\virtualKeyBoard\obj\Debug\virtualKeyBoard.Properties.Resources.resources
 C:\Users\USER\Desktop\workspace\c#\virtualkeyboard\virtualKeyBoard\obj\Debug\virtualKeyBoard.csproj.GenerateResource.Cache
 C:\Users\USER\Desktop\workspace\c#\virtualkeyboard\virtualKeyBoard\obj\Debug\virtualKeyBoard.exe
 C:\Users\USER\Desktop\workspace\c#\virtualkeyboard\virtualKeyBoard\obj\Debug\virtualKeyBoard.pdb
-C:\Users\USER\Desktop\workspace\c#\virtualkeyboard\virtualKeyBoard\obj\Debug\virtualKeyBoard.Form2.resources
+C:\Users\USER\Desktop\workspace\c#\virtualkeyboard\virtualKeyBoard\obj\Debug\virtualKeyBoard.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\workspace\c#\virtualkeyboard\virtualKeyBoard\obj\Debug\virtualKeyBoard.Controler.resources
+C:\Users\USER\Desktop\workspace\c#\virtualkeyboard\virtualKeyBoard\obj\Debug\virtualKeyBoard.Setting.resources

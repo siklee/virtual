@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace virtualKeyBoard
 {
-    public partial class Form2 : Form
+    public partial class Setting : Form
     {
-        public Form2()
+        public Setting()
         {
             InitializeComponent();
         }
