@@ -16,8 +16,7 @@ namespace virtualKeyBoard
 {
     public partial class KeyBoard : Form
     {
-
-        KeyC kc = new KeyC();
+        
         public KeyBoard()
         {
             InitializeComponent();
@@ -31,7 +30,7 @@ namespace virtualKeyBoard
             if (ck.isCkeyOpen == true )
             {
                 KeyC.GetForm.Hide();
-                this.ckey.BackColor = System.Drawing.Color.White;
+                this.ckey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
                 ck.isCkeyOpen = false;
             }
             else

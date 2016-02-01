@@ -46,17 +46,16 @@ namespace virtualKeyBoard.KeySet
             {
                 SendKeys.Send("C");
             }
-            else
-            {
-
-            }
         }
 
         private void KeyC_MouseUp(object sender, MouseEventArgs e)
         {
-            this.SetDesktopLocation(MousePosition.X, MousePosition.Y);
-            SetOfKey sok = SetOfKey.Instance();
-            sok.cpoint.setPoint(MousePosition.X, MousePosition.Y);
+            if (SetOfKey.keyBoardMode == 2)
+            {
+                this.SetDesktopLocation(MousePosition.X, MousePosition.Y);
+                SetOfKey sok = SetOfKey.Instance();
+                sok.cpoint.setPoint(MousePosition.X, MousePosition.Y);
+            }
         }
     }
 }

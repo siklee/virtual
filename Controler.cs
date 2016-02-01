@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using virtualKeyBoard.KeySet;
 
 
 
@@ -34,13 +35,12 @@ namespace virtualKeyBoard
             {
                 this.BackgroundImage = global::virtualKeyBoard.Properties.Resources.greenkey;
                 SetOfKey.keyBoardMode = 1;
-           
+                
             }
             else
             {
                 this.BackgroundImage = global::virtualKeyBoard.Properties.Resources.redkey;
                 SetOfKey.keyBoardMode = 0;
-                
             }
         }
 

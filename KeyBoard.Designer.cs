@@ -74,12 +74,22 @@
             // 
             // ckey
             // 
-            this.ckey.Location = new System.Drawing.Point(190, 174);
+            this.ckey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.ckey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ckey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ckey.FlatAppearance.BorderColor = System.Drawing.Color.Cyan;
+            this.ckey.FlatAppearance.BorderSize = 4;
+            this.ckey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.ckey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.ckey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ckey.Font = new System.Drawing.Font("함초롬돋움", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ckey.ForeColor = System.Drawing.Color.Navy;
+            this.ckey.Location = new System.Drawing.Point(174, 174);
             this.ckey.Name = "ckey";
-            this.ckey.Size = new System.Drawing.Size(67, 63);
+            this.ckey.Size = new System.Drawing.Size(67, 67);
             this.ckey.TabIndex = 4;
             this.ckey.Text = "C";
-            this.ckey.UseVisualStyleBackColor = true;
+            this.ckey.UseVisualStyleBackColor = false;
             this.ckey.Click += new System.EventHandler(this.ckey_Click);
             // 
             // KeyBoard
