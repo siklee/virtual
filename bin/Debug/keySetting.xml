@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SetOfKey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <isCkeyOpen>false</isCkeyOpen>
+  <isCkeyOpen>true</isCkeyOpen>
+  <cpoint>
+    <locationX>1102</locationX>
+    <locationY>642</locationY>
+  </cpoint>
 </SetOfKey>

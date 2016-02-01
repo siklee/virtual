@@ -60,7 +60,8 @@ namespace virtualKeyBoard
 
             if (outKey.isCkeyOpen == true)
             {
-                KeyC.GetForm.Show();           
+                KeyC.GetForm.Show();
+                KeyC.GetForm.SetDesktopLocation(outKey.cpoint.locationX, outKey.cpoint.locationY);
             }
         }   
     }

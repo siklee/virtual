@@ -11,7 +11,16 @@ namespace virtualKeyBoard
     public class SetOfKey
     {
         private static SetOfKey instance;
+        // 싱글톤 
+
+        public static int keyBoardMode = 0; 
+
         public bool isCkeyOpen = false;
+        public Point cpoint = new Point();
+        //컴퓨터 키
+
+        
+       
 
         public static SetOfKey Instance()
         {
@@ -42,7 +51,22 @@ namespace virtualKeyBoard
                 inKey = (SetOfKey)xmlSetializer.Deserialize(writer);
             }
             this.isCkeyOpen = inKey.isCkeyOpen;
+            this.cpoint = inKey.cpoint;
         }
 
     }
+
+    public class Point
+    {
+        public int locationX;
+        public int locationY;
+
+
+        public void setPoint(int locationX, int locationY)
+        {
+            this.locationX = locationX;
+            this.locationY = locationY;
+        }
+    }
+
 }

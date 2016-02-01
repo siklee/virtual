@@ -48,6 +48,8 @@ namespace virtualKeyBoard.KeySet
         private void KeyC_MouseUp(object sender, MouseEventArgs e)
         {
             this.SetDesktopLocation(MousePosition.X, MousePosition.Y);
+            SetOfKey sok = SetOfKey.Instance();
+            sok.cpoint.setPoint(MousePosition.X, MousePosition.Y);
         }
     }
 }
