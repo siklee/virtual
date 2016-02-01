@@ -10,10 +10,10 @@ namespace virtualKeyBoard
 {
     public class SetOfKey
     {
-        private static SetOfKey instance;
+        private static SetOfKey instance;   
         // 싱글톤 
 
-        public static int keyBoardMode = 0; 
+        public static int keyBoardMode = 0;   // off 0 on 1 setting 2
 
         public bool isCkeyOpen = false;
         public Point cpoint = new Point();

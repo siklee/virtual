@@ -8,12 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+
+
 namespace virtualKeyBoard
 {
     public partial class Controler : Form
     {
-
-        int format=0; // 0 off 1 on 2 setting
+        
 
         Setting st = new Setting();
 
@@ -26,32 +28,34 @@ namespace virtualKeyBoard
 
         private void Form1_Click(object sender, EventArgs e)
         {
+           
             st.Hide();
-            if (format == 0)
+            if (SetOfKey.keyBoardMode == 0)
             {
                 this.BackgroundImage = global::virtualKeyBoard.Properties.Resources.greenkey;
-                format = 1;
+                SetOfKey.keyBoardMode = 1;
            
             }
             else
             {
                 this.BackgroundImage = global::virtualKeyBoard.Properties.Resources.redkey;
-                format = 0;
+                SetOfKey.keyBoardMode = 0;
+                
             }
         }
 
         private void Form1_DoubleClick(object sender, EventArgs e)
         {
             st.Hide();
-            if (format == 2)
+            if (SetOfKey.keyBoardMode == 2)
             {
                 this.BackgroundImage = global::virtualKeyBoard.Properties.Resources.redkey;
-                format = 0;
+                SetOfKey.keyBoardMode = 0;
             }
             else
             {
                 this.BackgroundImage = global::virtualKeyBoard.Properties.Resources.settingkey;
-                format = 2;
+                SetOfKey.keyBoardMode = 2;
                 
                 if (!st.IsAccessible)
                 {

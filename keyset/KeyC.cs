@@ -39,10 +39,17 @@ namespace virtualKeyBoard.KeySet
                 return param;
             }
         }
-    
+
         private void KeyC_Click(object sender, EventArgs e)
         {
-            SendKeys.Send("C");
+            if (SetOfKey.keyBoardMode == 1)
+            {
+                SendKeys.Send("C");
+            }
+            else
+            {
+
+            }
         }
 
         private void KeyC_MouseUp(object sender, MouseEventArgs e)
