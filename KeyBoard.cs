@@ -25,17 +25,18 @@ namespace virtualKeyBoard
 
         private void ckey_Click(object sender, EventArgs e)
         {
-            if (SetOfKey.isCkeyOpen == true )
+            SetOfKey ck = SetOfKey.Instance();
+            if (ck.isCkeyOpen == true )
             {
                 KeyC.GetForm.Hide();
                 this.ckey.BackColor = System.Drawing.Color.White;
-                SetOfKey.isCkeyOpen = false;
+                ck.isCkeyOpen = false;
             }
             else
             {
                 KeyC.GetForm.Show();
                 this.ckey.BackColor = System.Drawing.Color.Pink;
-                SetOfKey.isCkeyOpen = true;
+                ck.isCkeyOpen = true;
             }
         }
     }

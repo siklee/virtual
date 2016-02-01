@@ -8,30 +8,24 @@ using System.IO;
 
 namespace virtualKeyBoard
 {
-    public static class SetOfKey
+    public class SetOfKey
     {
-        public static bool isCkeyOpen = false;
-        
-    }
+        private static SetOfKey instance;
+        public bool isCkeyOpen = false;
 
-    public class IOSetOfKey
-    {
-        public bool tempIsCkeyOpen;
-
-        public IOSetOfKey()
+        public static SetOfKey Instance()
         {
-            this.tempIsCkeyOpen = SetOfKey.isCkeyOpen;
+            if (instance == null)
+            {
+                instance = new SetOfKey();
+            }
+
+            return instance;
         }
-
-        public IOSetOfKey(IOSetOfKey dat)
-        {
-            this.tempIsCkeyOpen = dat.tempIsCkeyOpen;
-        }
-
-
+  
         public void serializeKeySetting()
         {
-            XmlSerializer xmlSetializer = new XmlSerializer(typeof(IOSetOfKey));
+            XmlSerializer xmlSetializer = new XmlSerializer(typeof(SetOfKey));
             using (StreamWriter writer = new StreamWriter("keySetting.xml"))
             {
                 xmlSetializer.Serialize(writer, this);
@@ -41,16 +35,14 @@ namespace virtualKeyBoard
 
         public void deSerializeKeySetting()
         {
-            IOSetOfKey inKey = new IOSetOfKey();
-            XmlSerializer xmlSetializer = new XmlSerializer(typeof(IOSetOfKey));
+            SetOfKey inKey = SetOfKey.Instance();
+            XmlSerializer xmlSetializer = new XmlSerializer(typeof(SetOfKey));
             using (StreamReader writer = new StreamReader("keySetting.xml"))
             {
-                inKey = (IOSetOfKey)xmlSetializer.Deserialize(writer);
+                inKey = (SetOfKey)xmlSetializer.Deserialize(writer);
             }
-
-            SetOfKey.isCkeyOpen = inKey.tempIsCkeyOpen;
+            this.isCkeyOpen = inKey.isCkeyOpen;
         }
-        
-    }
 
+    }
 }

@@ -49,16 +49,16 @@ namespace virtualKeyBoard
 
         private void button2_Click(object sender, EventArgs e)
         {
-            IOSetOfKey inkey = new IOSetOfKey();
-            inkey.serializeKeySetting();
+            SetOfKey inKey = SetOfKey.Instance();
+            inKey.serializeKeySetting();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            IOSetOfKey outkey = new IOSetOfKey();
-            outkey.deSerializeKeySetting();
+            SetOfKey outKey = SetOfKey.Instance();
+            outKey.deSerializeKeySetting();
 
-            if (SetOfKey.isCkeyOpen == true)
+            if (outKey.isCkeyOpen == true)
             {
                 KeyC.GetForm.Show();           
             }
