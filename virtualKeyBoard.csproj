@@ -46,17 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SetOfKey.cs" />
     <Compile Include="Controler.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Controler.Designer.cs">
       <DependentUpon>Controler.cs</DependentUpon>
-    </Compile>
-    <Compile Include="keyset\Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="keyset\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="keyset\KeyC.cs">
       <SubType>Form</SubType>

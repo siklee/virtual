@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Serialization;
+using System.IO;
+using virtualKeyBoard.KeySet;
 
 namespace virtualKeyBoard
 {
@@ -14,6 +17,7 @@ namespace virtualKeyBoard
     {
 
         KeyBoard key = new KeyBoard();
+
         bool isKeyBoardOpen = false;
         public Setting()
         {
@@ -22,7 +26,7 @@ namespace virtualKeyBoard
 
         private void add_Click(object sender, EventArgs e)
         {
-            if (isKeyBoardOpen==false)
+            if (isKeyBoardOpen == false)
             {
                 key.Show();
                 isKeyBoardOpen = true;
@@ -32,12 +36,33 @@ namespace virtualKeyBoard
                 key.Hide();
                 isKeyBoardOpen = false;
             }
-            
+
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
+
+
+     
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            IOSetOfKey inkey = new IOSetOfKey();
+            inkey.serializeKeySetting();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            IOSetOfKey outkey = new IOSetOfKey();
+            outkey.deSerializeKeySetting();
+
+            if (SetOfKey.isCkeyOpen == true)
+            {
+                KeyC kc = new KeyC();
+                kc.Show();
+            }
+        }   
     }
 }

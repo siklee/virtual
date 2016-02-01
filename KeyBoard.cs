@@ -14,6 +14,7 @@ namespace virtualKeyBoard
 {
     public partial class KeyBoard : Form
     {
+
         KeyC kc = new KeyC();
         public KeyBoard()
         {
@@ -24,15 +25,17 @@ namespace virtualKeyBoard
 
         private void ckey_Click(object sender, EventArgs e)
         {
-            if (this.ckey.BackColor == System.Drawing.Color.Pink)
+            if (SetOfKey.isCkeyOpen == true )
             {
                 kc.Hide();
                 this.ckey.BackColor = System.Drawing.Color.White;
+                SetOfKey.isCkeyOpen = false;
             }
             else
             {
                 kc.Show();
                 this.ckey.BackColor = System.Drawing.Color.Pink;
+                SetOfKey.isCkeyOpen = true;
             }
         }
     }
