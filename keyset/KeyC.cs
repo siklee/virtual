@@ -12,10 +12,22 @@ namespace virtualKeyBoard.KeySet
 {
     public partial class KeyC : Form
     {
+        private static KeyC instance;
         public KeyC()
         {
             InitializeComponent();
         }
+
+        public static KeyC GetForm
+        {
+            get
+            {
+                if (instance == null || instance.IsDisposed)
+                    instance = new KeyC();
+                return instance;
+            }
+        }
+        
 
 
         protected override CreateParams CreateParams

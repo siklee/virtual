@@ -27,13 +27,13 @@ namespace virtualKeyBoard
         {
             if (SetOfKey.isCkeyOpen == true )
             {
-                kc.Hide();
+                KeyC.GetForm.Hide();
                 this.ckey.BackColor = System.Drawing.Color.White;
                 SetOfKey.isCkeyOpen = false;
             }
             else
             {
-                kc.Show();
+                KeyC.GetForm.Show();
                 this.ckey.BackColor = System.Drawing.Color.Pink;
                 SetOfKey.isCkeyOpen = true;
             }

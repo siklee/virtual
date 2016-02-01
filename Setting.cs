@@ -60,8 +60,7 @@ namespace virtualKeyBoard
 
             if (SetOfKey.isCkeyOpen == true)
             {
-                KeyC kc = new KeyC();
-                kc.Show();
+                KeyC.GetForm.Show();           
             }
         }   
     }
