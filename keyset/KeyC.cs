@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace virtualKeyBoard.KeySet
 {
@@ -45,6 +46,12 @@ namespace virtualKeyBoard.KeySet
             if (SetOfKey.keyBoardMode == 1)
             {
                 SendKeys.Send("C");
+                using (System.Media.SoundPlayer player = new System.Media.SoundPlayer(global::virtualKeyBoard.Properties.Resources.marine))
+                {
+                    player.Play();
+                }
+                //SoundPlayer simpleSound = new SoundPlayer("\\etcfile\\marine.wav");
+                //simpleSound.Play();
             }
         }
 
