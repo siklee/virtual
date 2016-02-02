@@ -119,7 +119,6 @@
             this.ckey.TabIndex = 4;
             this.ckey.Text = "C";
             this.ckey.UseVisualStyleBackColor = false;
-            this.ckey.Click += new System.EventHandler(this.ckey_Click);
             // 
             // f6key
             // 

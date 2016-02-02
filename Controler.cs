@@ -16,17 +16,15 @@ namespace virtualKeyBoard
 {
     public partial class Controler : Form
     {
-        
 
         Setting st = new Setting();
-
-
 
         public Controler()
         {
             InitializeComponent();
         }
 
+        // 컨트롤 클릭시 조작  on / off 조작 
         private void Form1_Click(object sender, EventArgs e)
         {
            
@@ -44,6 +42,8 @@ namespace virtualKeyBoard
             }
         }
 
+
+        //  컨트롤 더블 클릭시 조작 setting/ off 조작 
         private void Form1_DoubleClick(object sender, EventArgs e)
         {
             st.Hide();
@@ -59,7 +59,7 @@ namespace virtualKeyBoard
                 
                 if (!st.IsAccessible)
                 {
-                    st.Show();
+                    st.Show();         // 설정창 출력
                 }
             }
         }

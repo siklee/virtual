@@ -1,6 +1,6 @@
 ﻿namespace virtualKeyBoard.KeySet
 {
-    partial class KeyCtrl
+    partial class TestKey
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@
         {
             this.SuspendLayout();
             // 
-            // KeyCtrl
+            // TestKey
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
@@ -42,14 +42,14 @@
             this.ForeColor = System.Drawing.Color.Purple;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 6, 3, 6);
-            this.Name = "KeyCtrl";
+            this.Name = "TestKey";
             this.Opacity = 0.5D;
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.TopMost = true;
-            this.Click += new System.EventHandler(this.KeyCtrl_Click);
-            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.KeyCtrl_MouseUp);
+            this.Click += new System.EventHandler(this.TestKey_Click);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.TestKey_MouseUp);
             this.ResumeLayout(false);
 
         }

@@ -15,10 +15,8 @@ namespace virtualKeyBoard
 {
     public partial class Setting : Form
     {
-
         KeyBoard key = new KeyBoard();
-
-        bool isKeyBoardOpen = false;
+        
         public Setting()
         {
             InitializeComponent();
@@ -26,15 +24,15 @@ namespace virtualKeyBoard
         // 키보드 추가 (키보드 판을 불러옴 )
         private void add_Click(object sender, EventArgs e)
         {
-            if (isKeyBoardOpen == false)
+            if (SetOfKey.isKeyBoardOpen == false)
             {
                 key.Show();
-                isKeyBoardOpen = true;
+                SetOfKey.isKeyBoardOpen = true;
             }
             else
             {
                 key.Hide();
-                isKeyBoardOpen = false;
+                SetOfKey.isKeyBoardOpen = false;
             }
 
         }
@@ -55,17 +53,26 @@ namespace virtualKeyBoard
         }
 
 
-        //키보드 상태를 불러옴    *****문제1 *****
+        //키보드 상태를 불러옴    저장된 키보드를 불러와야된다 위치 onoff여부 등
         private void button3_Click(object sender, EventArgs e)
         {
             SetOfKey outKey = SetOfKey.Instance();
             outKey.deSerializeKeySetting();
 
+            for(int i=0;i<71;i++)
+            {
+                if(outKey.keyInformation[i].isKeyOpen == true)
+                {
+                    outKey.keyInformation[i].Key.Show();
+                }
+            }
+            /*
             if (outKey.isCkeyOpen == true)
             {
                 KeyC.GetForm.Show();
                 KeyC.GetForm.SetDesktopLocation(outKey.cpoint.locationX, outKey.cpoint.locationY);
             }
+            */
         }   
     }
 }

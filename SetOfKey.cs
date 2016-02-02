@@ -16,22 +16,19 @@ namespace virtualKeyBoard
         // 싱글톤 
 
         public static int keyBoardMode = 0;   // off 0 on 1 setting 2
+        public static bool isKeyBoardOpen = false;
 
 
         public Keyinfo[] keyInformation= new Keyinfo[71];
 
-
-
-        public bool isCkeyOpen = false;
-        public Point cpoint = new Point();
         //컴퓨터 키
 
         public SetOfKey()
         {
-            for(int i=0;i<71;i++)
-            {
-                keyInformation[i] = new Keyinfo();
-            }
+            keyInformation[0] = new Keyinfo("A");
+            keyInformation[1] = new Keyinfo("B");
+            keyInformation[2] = new Keyinfo("C");
+            keyInformation[3] = new Keyinfo("D");
         }
         
        
@@ -64,46 +61,28 @@ namespace virtualKeyBoard
             {
                 inKey = (SetOfKey)xmlSetializer.Deserialize(writer);
             }
-            for(int i=0;i<71;i++)
+            for(int i=0;i<1;i++)
             {
                 this.keyInformation = inKey.keyInformation;
             }
-            this.isCkeyOpen = inKey.isCkeyOpen;
-            this.cpoint = inKey.cpoint;
         }
 
 
     }
-
-    public class Point
-    {
-        public int locationX;
-        public int locationY;
-
-        public void setPoint(int x,int y)
-        {
-            locationX = x;
-            locationY = y;
-        }
-
-    }
-
-
+    
+    
     
 
     public class Keyinfo
     {
-        public int locationX;
-        public int locationY;
-
-        public bool iskeyopen;
+        public bool isKeyOpen;
+        public TestKey Key;
 
         
-        public Keyinfo()
+        public Keyinfo(string keyValue)
         {
-            locationX = 100;
-            locationY = 100;
-            iskeyopen = false;
+            isKeyOpen = false;
+            Key = new TestKey(keyValue);
         }
         /*
         public bool getIskeyOpen()

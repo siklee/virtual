@@ -11,25 +11,21 @@ using System.Media;
 
 namespace virtualKeyBoard.KeySet
 {
-    public partial class KeyN : Form
+    public partial class TestKey : Form
     {
-        private static KeyN instance;
-        public KeyN()
+        private string key;
+        public int locationX;
+        public int locationY;
+
+        public TestKey(string key)
+        {
+            this.key = key;
+            InitializeComponent();
+        }
+        public TestKey()
         {
             InitializeComponent();
         }
-
-        public static KeyN GetForm
-        {
-            get
-            {
-                if (instance == null || instance.IsDisposed)
-                    instance = new KeyN();
-                return instance;
-            }
-        }
-        
-
 
         protected override CreateParams CreateParams
         {
@@ -41,11 +37,11 @@ namespace virtualKeyBoard.KeySet
             }
         }
 
-        private void KeyN_Click(object sender, EventArgs e)
+        private void TestKey_Click(object sender, EventArgs e)
         {
             if (SetOfKey.keyBoardMode == 1)
             {
-                SendKeys.Send("C");
+                SendKeys.Send(key);
                 using (System.Media.SoundPlayer player = new System.Media.SoundPlayer(global::virtualKeyBoard.Properties.Resources.marine))
                 {
                     player.Play();
@@ -54,13 +50,13 @@ namespace virtualKeyBoard.KeySet
             }
         }
 
-        private void KeyN_MouseUp(object sender, MouseEventArgs e)
+        private void TestKey_MouseUp(object sender, MouseEventArgs e)
         {
             if (SetOfKey.keyBoardMode == 2)
             {
                 this.SetDesktopLocation(MousePosition.X, MousePosition.Y);
-                SetOfKey sok = SetOfKey.Instance();
-                sok.cpoint.setPoint(MousePosition.X, MousePosition.Y);
+                locationX = MousePosition.X;
+                locationY = MousePosition.Y;
             }
         }
     }
