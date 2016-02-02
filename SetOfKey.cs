@@ -17,10 +17,22 @@ namespace virtualKeyBoard
 
         public static int keyBoardMode = 0;   // off 0 on 1 setting 2
 
+
+        public Keyinfo[] keyInformation= new Keyinfo[71];
+
+
+
         public bool isCkeyOpen = false;
         public Point cpoint = new Point();
         //컴퓨터 키
 
+        public SetOfKey()
+        {
+            for(int i=0;i<71;i++)
+            {
+                keyInformation[i] = new Keyinfo();
+            }
+        }
         
        
 
@@ -43,7 +55,7 @@ namespace virtualKeyBoard
             }
 
         }
-
+       
         public void deSerializeKeySetting()
         {
             SetOfKey inKey = SetOfKey.Instance();
@@ -52,6 +64,10 @@ namespace virtualKeyBoard
             {
                 inKey = (SetOfKey)xmlSetializer.Deserialize(writer);
             }
+            for(int i=0;i<71;i++)
+            {
+                this.keyInformation = inKey.keyInformation;
+            }
             this.isCkeyOpen = inKey.isCkeyOpen;
             this.cpoint = inKey.cpoint;
         }
@@ -59,20 +75,52 @@ namespace virtualKeyBoard
 
     }
 
-   
-
-
     public class Point
     {
         public int locationX;
         public int locationY;
 
-
-        public void setPoint(int locationX, int locationY)
+        public void setPoint(int x,int y)
         {
-            this.locationX = locationX;
-            this.locationY = locationY;
+            locationX = x;
+            locationY = y;
         }
+
     }
+
+
+    
+
+    public class Keyinfo
+    {
+        public int locationX;
+        public int locationY;
+
+        public bool iskeyopen;
+
+        
+        public Keyinfo()
+        {
+            locationX = 100;
+            locationY = 100;
+            iskeyopen = false;
+        }
+        /*
+        public bool getIskeyOpen()
+        {
+            return iskeyopen;
+        }
+        public int getxloc()
+        {
+            return locationX;
+        }
+        public int getyloc()
+        {
+            return locationY;
+        }
+        */
+    }
+
+    
 
 }

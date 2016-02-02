@@ -46,6 +46,282 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="keyset\KeyBackSpace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyBackSpace.Designer.cs">
+      <DependentUpon>KeyBackSpace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyDelete.Designer.cs">
+      <DependentUpon>KeyDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyDown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyDown.Designer.cs">
+      <DependentUpon>KeyDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyAlt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyAlt.Designer.cs">
+      <DependentUpon>KeyAlt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyEnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyEnd.Designer.cs">
+      <DependentUpon>KeyEnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeySpace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeySpace.Designer.cs">
+      <DependentUpon>KeySpace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyRight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyRight.Designer.cs">
+      <DependentUpon>KeyRight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyLeft.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyLeft.Designer.cs">
+      <DependentUpon>KeyLeft.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyUp.Designer.cs">
+      <DependentUpon>KeyUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyWindow.Designer.cs">
+      <DependentUpon>KeyWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyPageDown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyPageDown.Designer.cs">
+      <DependentUpon>KeyPageDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyPageUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyPageUp.Designer.cs">
+      <DependentUpon>KeyPageUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyHome.Designer.cs">
+      <DependentUpon>KeyHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyEnter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyEnter.Designer.cs">
+      <DependentUpon>KeyEnter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyPrintScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyPrintScreen.Designer.cs">
+      <DependentUpon>KeyPrintScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeySlash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeySlash.Designer.cs">
+      <DependentUpon>KeySlash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyL.Designer.cs">
+      <DependentUpon>KeyL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyM.Designer.cs">
+      <DependentUpon>KeyM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyN.Designer.cs">
+      <DependentUpon>KeyN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyO.Designer.cs">
+      <DependentUpon>KeyO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyP.Designer.cs">
+      <DependentUpon>KeyP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyQ.Designer.cs">
+      <DependentUpon>KeyQ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyR.Designer.cs">
+      <DependentUpon>KeyR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyS.Designer.cs">
+      <DependentUpon>KeyS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyT.Designer.cs">
+      <DependentUpon>KeyT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyInsert.Designer.cs">
+      <DependentUpon>KeyInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyU.Designer.cs">
+      <DependentUpon>KeyU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyShift.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyShift.Designer.cs">
+      <DependentUpon>KeyShift.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyW.Designer.cs">
+      <DependentUpon>KeyW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyK.Designer.cs">
+      <DependentUpon>KeyK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyJ.Designer.cs">
+      <DependentUpon>KeyJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyI.Designer.cs">
+      <DependentUpon>KeyI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyH.Designer.cs">
+      <DependentUpon>KeyH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyG.Designer.cs">
+      <DependentUpon>KeyG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyF.Designer.cs">
+      <DependentUpon>KeyF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyE.Designer.cs">
+      <DependentUpon>KeyE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyD.Designer.cs">
+      <DependentUpon>KeyD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyA.Designer.cs">
+      <DependentUpon>KeyA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyB.Designer.cs">
+      <DependentUpon>KeyB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyV.Designer.cs">
+      <DependentUpon>KeyV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyX.Designer.cs">
+      <DependentUpon>KeyX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyY.Designer.cs">
+      <DependentUpon>KeyY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyCtrl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyCtrl.Designer.cs">
+      <DependentUpon>KeyCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyTab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyTab.Designer.cs">
+      <DependentUpon>KeyTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyESC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyESC.Designer.cs">
+      <DependentUpon>KeyESC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="keyset\KeyZ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keyset\KeyZ.Designer.cs">
+      <DependentUpon>KeyZ.cs</DependentUpon>
+    </Compile>
     <Compile Include="SetOfKey.cs" />
     <Compile Include="Controler.cs">
       <SubType>Form</SubType>
@@ -78,6 +354,144 @@
     </EmbeddedResource>
     <EmbeddedResource Include="KeyBoard.resx">
       <DependentUpon>KeyBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyBackSpace.resx">
+      <DependentUpon>KeyBackSpace.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyDelete.resx">
+      <DependentUpon>KeyDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyDown.resx">
+      <DependentUpon>KeyDown.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyAlt.resx">
+      <DependentUpon>KeyAlt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyEnd.resx">
+      <DependentUpon>KeyEnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeySpace.resx">
+      <DependentUpon>KeySpace.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyRight.resx">
+      <DependentUpon>KeyRight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyLeft.resx">
+      <DependentUpon>KeyLeft.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyUp.resx">
+      <DependentUpon>KeyUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyWindow.resx">
+      <DependentUpon>KeyWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyPageDown.resx">
+      <DependentUpon>KeyPageDown.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyPageUp.resx">
+      <DependentUpon>KeyPageUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyHome.resx">
+      <DependentUpon>KeyHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyEnter.resx">
+      <DependentUpon>KeyEnter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyPrintScreen.resx">
+      <DependentUpon>KeyPrintScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeySlash.resx">
+      <DependentUpon>KeySlash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyL.resx">
+      <DependentUpon>KeyL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyM.resx">
+      <DependentUpon>KeyM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyN.resx">
+      <DependentUpon>KeyN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyO.resx">
+      <DependentUpon>KeyO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyP.resx">
+      <DependentUpon>KeyP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyQ.resx">
+      <DependentUpon>KeyQ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyR.resx">
+      <DependentUpon>KeyR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyS.resx">
+      <DependentUpon>KeyS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyT.resx">
+      <DependentUpon>KeyT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyInsert.resx">
+      <DependentUpon>KeyInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyU.resx">
+      <DependentUpon>KeyU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyShift.resx">
+      <DependentUpon>KeyShift.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyW.resx">
+      <DependentUpon>KeyW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyK.resx">
+      <DependentUpon>KeyK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyJ.resx">
+      <DependentUpon>KeyJ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyI.resx">
+      <DependentUpon>KeyI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyH.resx">
+      <DependentUpon>KeyH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyG.resx">
+      <DependentUpon>KeyG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyF.resx">
+      <DependentUpon>KeyF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyE.resx">
+      <DependentUpon>KeyE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyD.resx">
+      <DependentUpon>KeyD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyA.resx">
+      <DependentUpon>KeyA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyB.resx">
+      <DependentUpon>KeyB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyV.resx">
+      <DependentUpon>KeyV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyX.resx">
+      <DependentUpon>KeyX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyY.resx">
+      <DependentUpon>KeyY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyCtrl.resx">
+      <DependentUpon>KeyCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyTab.resx">
+      <DependentUpon>KeyTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyESC.resx">
+      <DependentUpon>KeyESC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keyset\KeyZ.resx">
+      <DependentUpon>KeyZ.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="keyset\KeyC.resx">
       <DependentUpon>KeyC.cs</DependentUpon>

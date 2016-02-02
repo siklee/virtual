@@ -74,7 +74,7 @@
             this.mkey = new System.Windows.Forms.Button();
             this.zkey = new System.Windows.Forms.Button();
             this.xkey = new System.Windows.Forms.Button();
-            this.button60 = new System.Windows.Forms.Button();
+            this.ESC = new System.Windows.Forms.Button();
             this.vkey = new System.Windows.Forms.Button();
             this.bkey = new System.Windows.Forms.Button();
             this.nkey = new System.Windows.Forms.Button();
@@ -1021,25 +1021,26 @@
             this.xkey.Text = "X";
             this.xkey.UseVisualStyleBackColor = false;
             // 
-            // button60
+            // ESC
             // 
-            this.button60.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button60.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button60.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button60.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button60.FlatAppearance.BorderSize = 4;
-            this.button60.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button60.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button60.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button60.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button60.ForeColor = System.Drawing.Color.White;
-            this.button60.Location = new System.Drawing.Point(10, 10);
-            this.button60.Margin = new System.Windows.Forms.Padding(1);
-            this.button60.Name = "button60";
-            this.button60.Size = new System.Drawing.Size(60, 60);
-            this.button60.TabIndex = 61;
-            this.button60.Text = "ESC";
-            this.button60.UseVisualStyleBackColor = false;
+            this.ESC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.ESC.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ESC.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ESC.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.ESC.FlatAppearance.BorderSize = 4;
+            this.ESC.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.ESC.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.ESC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ESC.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ESC.ForeColor = System.Drawing.Color.White;
+            this.ESC.Location = new System.Drawing.Point(10, 10);
+            this.ESC.Margin = new System.Windows.Forms.Padding(1);
+            this.ESC.Name = "ESC";
+            this.ESC.Size = new System.Drawing.Size(60, 60);
+            this.ESC.TabIndex = 61;
+            this.ESC.Text = "ESC";
+            this.ESC.UseVisualStyleBackColor = false;
+            this.ESC.Click += new System.EventHandler(this.ESC_Click);
             // 
             // vkey
             // 
@@ -1530,7 +1531,7 @@
             this.Controls.Add(this.mkey);
             this.Controls.Add(this.zkey);
             this.Controls.Add(this.xkey);
-            this.Controls.Add(this.button60);
+            this.Controls.Add(this.ESC);
             this.Controls.Add(this.vkey);
             this.Controls.Add(this.bkey);
             this.Controls.Add(this.nkey);
@@ -1630,7 +1631,7 @@
         private System.Windows.Forms.Button mkey;
         private System.Windows.Forms.Button zkey;
         private System.Windows.Forms.Button xkey;
-        private System.Windows.Forms.Button button60;
+        private System.Windows.Forms.Button ESC;
         private System.Windows.Forms.Button vkey;
         private System.Windows.Forms.Button bkey;
         private System.Windows.Forms.Button nkey;

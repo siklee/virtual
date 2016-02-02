@@ -36,11 +36,26 @@ namespace virtualKeyBoard
             else
             {
                 KeyC.GetForm.Show();
-                this.ckey.BackColor = System.Drawing.Color.Pink;
+                this.ckey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
                 ck.isCkeyOpen = true;
             }
         }
 
-  
+        private void ESC_Click(object sender, EventArgs e)
+        {
+            SetOfKey info = SetOfKey.Instance();
+            if(info.keyInformation[0].iskeyopen==true)
+            {
+                KeyESC.GetForm.Hide();
+                this.ESC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+                info.keyInformation[0].iskeyopen = false;
+            }
+            else
+            {
+                KeyESC.GetForm.Show();
+                this.ESC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+                info.keyInformation[0].iskeyopen = true;
+            }
+        }
     }
 }

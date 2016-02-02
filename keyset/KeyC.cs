@@ -50,11 +50,11 @@ namespace virtualKeyBoard.KeySet
                 {
                     player.Play();
                 }
-                //SoundPlayer simpleSound = new SoundPlayer("\\etcfile\\marine.wav");
-                //simpleSound.Play();
+              
             }
         }
 
+        // 대문제 3 
         private void KeyC_MouseUp(object sender, MouseEventArgs e)
         {
             if (SetOfKey.keyBoardMode == 2)
