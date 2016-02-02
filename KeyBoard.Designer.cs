@@ -29,74 +29,74 @@
         private void InitializeComponent()
         {
             this.ckey = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
-            this.button29 = new System.Windows.Forms.Button();
-            this.button32 = new System.Windows.Forms.Button();
-            this.button33 = new System.Windows.Forms.Button();
-            this.button34 = new System.Windows.Forms.Button();
-            this.button35 = new System.Windows.Forms.Button();
-            this.button36 = new System.Windows.Forms.Button();
-            this.button37 = new System.Windows.Forms.Button();
-            this.button39 = new System.Windows.Forms.Button();
-            this.button40 = new System.Windows.Forms.Button();
-            this.button41 = new System.Windows.Forms.Button();
-            this.button45 = new System.Windows.Forms.Button();
-            this.button46 = new System.Windows.Forms.Button();
-            this.button47 = new System.Windows.Forms.Button();
-            this.button48 = new System.Windows.Forms.Button();
-            this.button49 = new System.Windows.Forms.Button();
-            this.button50 = new System.Windows.Forms.Button();
-            this.button52 = new System.Windows.Forms.Button();
-            this.button58 = new System.Windows.Forms.Button();
-            this.button59 = new System.Windows.Forms.Button();
+            this.f6key = new System.Windows.Forms.Button();
+            this.f5key = new System.Windows.Forms.Button();
+            this.f4key = new System.Windows.Forms.Button();
+            this.f3key = new System.Windows.Forms.Button();
+            this.f2key = new System.Windows.Forms.Button();
+            this.f1key = new System.Windows.Forms.Button();
+            this.f12key = new System.Windows.Forms.Button();
+            this.f11key = new System.Windows.Forms.Button();
+            this.f10key = new System.Windows.Forms.Button();
+            this.f9key = new System.Windows.Forms.Button();
+            this.f8key = new System.Windows.Forms.Button();
+            this.f7key = new System.Windows.Forms.Button();
+            this.sevenkey = new System.Windows.Forms.Button();
+            this.eightkey = new System.Windows.Forms.Button();
+            this.ninekey = new System.Windows.Forms.Button();
+            this.zerokey = new System.Windows.Forms.Button();
+            this.onekey = new System.Windows.Forms.Button();
+            this.twokey = new System.Windows.Forms.Button();
+            this.threekey = new System.Windows.Forms.Button();
+            this.fourkey = new System.Windows.Forms.Button();
+            this.fivekey = new System.Windows.Forms.Button();
+            this.sixkey = new System.Windows.Forms.Button();
+            this.linekey = new System.Windows.Forms.Button();
+            this.ukey = new System.Windows.Forms.Button();
+            this.ikey = new System.Windows.Forms.Button();
+            this.okey = new System.Windows.Forms.Button();
+            this.pkey = new System.Windows.Forms.Button();
+            this.qkey = new System.Windows.Forms.Button();
+            this.wkey = new System.Windows.Forms.Button();
+            this.ekey = new System.Windows.Forms.Button();
+            this.rkey = new System.Windows.Forms.Button();
+            this.tkey = new System.Windows.Forms.Button();
+            this.ykey = new System.Windows.Forms.Button();
+            this.jkey = new System.Windows.Forms.Button();
+            this.kkey = new System.Windows.Forms.Button();
+            this.lkey = new System.Windows.Forms.Button();
+            this.akey = new System.Windows.Forms.Button();
+            this.skey = new System.Windows.Forms.Button();
+            this.dkey = new System.Windows.Forms.Button();
+            this.fkey = new System.Windows.Forms.Button();
+            this.gkey = new System.Windows.Forms.Button();
+            this.hkey = new System.Windows.Forms.Button();
+            this.mkey = new System.Windows.Forms.Button();
+            this.zkey = new System.Windows.Forms.Button();
+            this.xkey = new System.Windows.Forms.Button();
             this.button60 = new System.Windows.Forms.Button();
-            this.button61 = new System.Windows.Forms.Button();
-            this.button62 = new System.Windows.Forms.Button();
-            this.button63 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button30 = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button38 = new System.Windows.Forms.Button();
-            this.button42 = new System.Windows.Forms.Button();
-            this.button44 = new System.Windows.Forms.Button();
-            this.button51 = new System.Windows.Forms.Button();
-            this.button53 = new System.Windows.Forms.Button();
-            this.button54 = new System.Windows.Forms.Button();
-            this.button55 = new System.Windows.Forms.Button();
-            this.button56 = new System.Windows.Forms.Button();
-            this.button57 = new System.Windows.Forms.Button();
-            this.button64 = new System.Windows.Forms.Button();
-            this.button65 = new System.Windows.Forms.Button();
-            this.button66 = new System.Windows.Forms.Button();
-            this.button67 = new System.Windows.Forms.Button();
-            this.button68 = new System.Windows.Forms.Button();
-            this.button69 = new System.Windows.Forms.Button();
+            this.vkey = new System.Windows.Forms.Button();
+            this.bkey = new System.Windows.Forms.Button();
+            this.nkey = new System.Windows.Forms.Button();
+            this.tabkey = new System.Windows.Forms.Button();
+            this.enterkey = new System.Windows.Forms.Button();
+            this.ctrlkey = new System.Windows.Forms.Button();
+            this.upkey = new System.Windows.Forms.Button();
+            this.backkey = new System.Windows.Forms.Button();
+            this.shiftkey = new System.Windows.Forms.Button();
+            this.deletekey = new System.Windows.Forms.Button();
+            this.insertkey = new System.Windows.Forms.Button();
+            this.altkey = new System.Windows.Forms.Button();
+            this.spacekey = new System.Windows.Forms.Button();
+            this.leftkey = new System.Windows.Forms.Button();
+            this.downkey = new System.Windows.Forms.Button();
+            this.rightkey = new System.Windows.Forms.Button();
+            this.winkey = new System.Windows.Forms.Button();
+            this.endkey = new System.Windows.Forms.Button();
+            this.pgdnkey = new System.Windows.Forms.Button();
+            this.pgupkey = new System.Windows.Forms.Button();
+            this.homekey = new System.Windows.Forms.Button();
+            this.printkey = new System.Windows.Forms.Button();
             this.button43 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -112,914 +112,914 @@
             this.ckey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ckey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.ckey.ForeColor = System.Drawing.Color.White;
-            this.ckey.Location = new System.Drawing.Point(10, 10);
+            this.ckey.Location = new System.Drawing.Point(134, 258);
             this.ckey.Margin = new System.Windows.Forms.Padding(1);
             this.ckey.Name = "ckey";
             this.ckey.Size = new System.Drawing.Size(60, 60);
             this.ckey.TabIndex = 4;
-            this.ckey.Text = "ESC";
+            this.ckey.Text = "C";
             this.ckey.UseVisualStyleBackColor = false;
             this.ckey.Click += new System.EventHandler(this.ckey_Click);
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button1.FlatAppearance.BorderSize = 4;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(382, 10);
-            this.button1.Margin = new System.Windows.Forms.Padding(1);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(60, 60);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "F6";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button2.FlatAppearance.BorderSize = 4;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(320, 10);
-            this.button2.Margin = new System.Windows.Forms.Padding(1);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(60, 60);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "F5";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button3.FlatAppearance.BorderSize = 4;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(258, 10);
-            this.button3.Margin = new System.Windows.Forms.Padding(1);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(60, 60);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "F4";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button4.FlatAppearance.BorderSize = 4;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(196, 10);
-            this.button4.Margin = new System.Windows.Forms.Padding(1);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(60, 60);
-            this.button4.TabIndex = 8;
-            this.button4.Text = "F3";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button5.FlatAppearance.BorderSize = 4;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(134, 10);
-            this.button5.Margin = new System.Windows.Forms.Padding(1);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(60, 60);
-            this.button5.TabIndex = 9;
-            this.button5.Text = "F2";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button6.FlatAppearance.BorderSize = 4;
-            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(72, 10);
-            this.button6.Margin = new System.Windows.Forms.Padding(1);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(60, 60);
-            this.button6.TabIndex = 10;
-            this.button6.Text = "F1";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button8.FlatAppearance.BorderSize = 4;
-            this.button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(754, 10);
-            this.button8.Margin = new System.Windows.Forms.Padding(1);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(60, 60);
-            this.button8.TabIndex = 12;
-            this.button8.Text = "F12";
-            this.button8.UseVisualStyleBackColor = false;
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button9.FlatAppearance.BorderSize = 4;
-            this.button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Location = new System.Drawing.Point(692, 10);
-            this.button9.Margin = new System.Windows.Forms.Padding(1);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(60, 60);
-            this.button9.TabIndex = 13;
-            this.button9.Text = "F11";
-            this.button9.UseVisualStyleBackColor = false;
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button10.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button10.FlatAppearance.BorderSize = 4;
-            this.button10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.Location = new System.Drawing.Point(630, 10);
-            this.button10.Margin = new System.Windows.Forms.Padding(1);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(60, 60);
-            this.button10.TabIndex = 14;
-            this.button10.Text = "F10";
-            this.button10.UseVisualStyleBackColor = false;
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button11.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button11.FlatAppearance.BorderSize = 4;
-            this.button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Location = new System.Drawing.Point(568, 10);
-            this.button11.Margin = new System.Windows.Forms.Padding(1);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(60, 60);
-            this.button11.TabIndex = 15;
-            this.button11.Text = "F9";
-            this.button11.UseVisualStyleBackColor = false;
-            // 
-            // button12
-            // 
-            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button12.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button12.FlatAppearance.BorderSize = 4;
-            this.button12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button12.ForeColor = System.Drawing.Color.White;
-            this.button12.Location = new System.Drawing.Point(506, 10);
-            this.button12.Margin = new System.Windows.Forms.Padding(1);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(60, 60);
-            this.button12.TabIndex = 16;
-            this.button12.Text = "F8";
-            this.button12.UseVisualStyleBackColor = false;
-            // 
-            // button13
-            // 
-            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button13.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button13.FlatAppearance.BorderSize = 4;
-            this.button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button13.ForeColor = System.Drawing.Color.White;
-            this.button13.Location = new System.Drawing.Point(444, 10);
-            this.button13.Margin = new System.Windows.Forms.Padding(1);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(60, 60);
-            this.button13.TabIndex = 17;
-            this.button13.Text = "F7";
-            this.button13.UseVisualStyleBackColor = false;
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button7.FlatAppearance.BorderSize = 4;
-            this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(444, 72);
-            this.button7.Margin = new System.Windows.Forms.Padding(1);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(60, 60);
-            this.button7.TabIndex = 30;
-            this.button7.Text = "7";
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // button14
-            // 
-            this.button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button14.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button14.FlatAppearance.BorderSize = 4;
-            this.button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button14.ForeColor = System.Drawing.Color.White;
-            this.button14.Location = new System.Drawing.Point(506, 72);
-            this.button14.Margin = new System.Windows.Forms.Padding(1);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(60, 60);
-            this.button14.TabIndex = 29;
-            this.button14.Text = "8";
-            this.button14.UseVisualStyleBackColor = false;
-            // 
-            // button15
-            // 
-            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button15.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button15.FlatAppearance.BorderSize = 4;
-            this.button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button15.ForeColor = System.Drawing.Color.White;
-            this.button15.Location = new System.Drawing.Point(568, 72);
-            this.button15.Margin = new System.Windows.Forms.Padding(1);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(60, 60);
-            this.button15.TabIndex = 28;
-            this.button15.Text = "9";
-            this.button15.UseVisualStyleBackColor = false;
-            // 
-            // button16
-            // 
-            this.button16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button16.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button16.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button16.FlatAppearance.BorderSize = 4;
-            this.button16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button16.ForeColor = System.Drawing.Color.White;
-            this.button16.Location = new System.Drawing.Point(630, 72);
-            this.button16.Margin = new System.Windows.Forms.Padding(1);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(60, 60);
-            this.button16.TabIndex = 27;
-            this.button16.Text = "0";
-            this.button16.UseVisualStyleBackColor = false;
-            // 
-            // button19
-            // 
-            this.button19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button19.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button19.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button19.FlatAppearance.BorderSize = 4;
-            this.button19.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button19.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button19.ForeColor = System.Drawing.Color.White;
-            this.button19.Location = new System.Drawing.Point(72, 72);
-            this.button19.Margin = new System.Windows.Forms.Padding(1);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(60, 60);
-            this.button19.TabIndex = 24;
-            this.button19.Text = "1";
-            this.button19.UseVisualStyleBackColor = false;
-            // 
-            // button20
-            // 
-            this.button20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button20.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button20.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button20.FlatAppearance.BorderSize = 4;
-            this.button20.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button20.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button20.ForeColor = System.Drawing.Color.White;
-            this.button20.Location = new System.Drawing.Point(134, 72);
-            this.button20.Margin = new System.Windows.Forms.Padding(1);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(60, 60);
-            this.button20.TabIndex = 23;
-            this.button20.Text = "2";
-            this.button20.UseVisualStyleBackColor = false;
-            // 
-            // button21
-            // 
-            this.button21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button21.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button21.FlatAppearance.BorderSize = 4;
-            this.button21.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button21.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button21.ForeColor = System.Drawing.Color.White;
-            this.button21.Location = new System.Drawing.Point(196, 72);
-            this.button21.Margin = new System.Windows.Forms.Padding(1);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(60, 60);
-            this.button21.TabIndex = 22;
-            this.button21.Text = "3";
-            this.button21.UseVisualStyleBackColor = false;
-            // 
-            // button22
-            // 
-            this.button22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button22.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button22.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button22.FlatAppearance.BorderSize = 4;
-            this.button22.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button22.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button22.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button22.ForeColor = System.Drawing.Color.White;
-            this.button22.Location = new System.Drawing.Point(258, 72);
-            this.button22.Margin = new System.Windows.Forms.Padding(1);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(60, 60);
-            this.button22.TabIndex = 21;
-            this.button22.Text = "4";
-            this.button22.UseVisualStyleBackColor = false;
-            // 
-            // button23
-            // 
-            this.button23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button23.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button23.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button23.FlatAppearance.BorderSize = 4;
-            this.button23.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button23.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button23.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button23.ForeColor = System.Drawing.Color.White;
-            this.button23.Location = new System.Drawing.Point(320, 72);
-            this.button23.Margin = new System.Windows.Forms.Padding(1);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(60, 60);
-            this.button23.TabIndex = 20;
-            this.button23.Text = "5";
-            this.button23.UseVisualStyleBackColor = false;
-            // 
-            // button24
-            // 
-            this.button24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button24.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button24.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button24.FlatAppearance.BorderSize = 4;
-            this.button24.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button24.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button24.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button24.ForeColor = System.Drawing.Color.White;
-            this.button24.Location = new System.Drawing.Point(382, 72);
-            this.button24.Margin = new System.Windows.Forms.Padding(1);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(60, 60);
-            this.button24.TabIndex = 19;
-            this.button24.Text = "6";
-            this.button24.UseVisualStyleBackColor = false;
-            // 
-            // button25
-            // 
-            this.button25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button25.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button25.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button25.FlatAppearance.BorderSize = 4;
-            this.button25.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button25.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button25.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button25.ForeColor = System.Drawing.Color.White;
-            this.button25.Location = new System.Drawing.Point(10, 72);
-            this.button25.Margin = new System.Windows.Forms.Padding(1);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(60, 60);
-            this.button25.TabIndex = 18;
-            this.button25.Text = "~";
-            this.button25.UseVisualStyleBackColor = false;
-            // 
-            // button26
-            // 
-            this.button26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button26.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button26.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button26.FlatAppearance.BorderSize = 4;
-            this.button26.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button26.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button26.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button26.ForeColor = System.Drawing.Color.White;
-            this.button26.Location = new System.Drawing.Point(382, 134);
-            this.button26.Margin = new System.Windows.Forms.Padding(1);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(60, 60);
-            this.button26.TabIndex = 43;
-            this.button26.Text = "U";
-            this.button26.UseVisualStyleBackColor = false;
-            // 
-            // button27
-            // 
-            this.button27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button27.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button27.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button27.FlatAppearance.BorderSize = 4;
-            this.button27.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button27.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button27.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button27.ForeColor = System.Drawing.Color.White;
-            this.button27.Location = new System.Drawing.Point(444, 134);
-            this.button27.Margin = new System.Windows.Forms.Padding(1);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(60, 60);
-            this.button27.TabIndex = 42;
-            this.button27.Text = "I";
-            this.button27.UseVisualStyleBackColor = false;
-            // 
-            // button28
-            // 
-            this.button28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button28.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button28.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button28.FlatAppearance.BorderSize = 4;
-            this.button28.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button28.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button28.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button28.ForeColor = System.Drawing.Color.White;
-            this.button28.Location = new System.Drawing.Point(506, 134);
-            this.button28.Margin = new System.Windows.Forms.Padding(1);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(60, 60);
-            this.button28.TabIndex = 41;
-            this.button28.Text = "O";
-            this.button28.UseVisualStyleBackColor = false;
-            // 
-            // button29
-            // 
-            this.button29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button29.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button29.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button29.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button29.FlatAppearance.BorderSize = 4;
-            this.button29.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button29.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button29.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button29.ForeColor = System.Drawing.Color.White;
-            this.button29.Location = new System.Drawing.Point(568, 134);
-            this.button29.Margin = new System.Windows.Forms.Padding(1);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(60, 60);
-            this.button29.TabIndex = 40;
-            this.button29.Text = "P";
-            this.button29.UseVisualStyleBackColor = false;
-            // 
-            // button32
-            // 
-            this.button32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button32.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button32.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button32.FlatAppearance.BorderSize = 4;
-            this.button32.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button32.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button32.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button32.ForeColor = System.Drawing.Color.White;
-            this.button32.Location = new System.Drawing.Point(10, 134);
-            this.button32.Margin = new System.Windows.Forms.Padding(1);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(60, 60);
-            this.button32.TabIndex = 37;
-            this.button32.Text = "Q";
-            this.button32.UseVisualStyleBackColor = false;
-            // 
-            // button33
-            // 
-            this.button33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button33.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button33.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button33.FlatAppearance.BorderSize = 4;
-            this.button33.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button33.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button33.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button33.ForeColor = System.Drawing.Color.White;
-            this.button33.Location = new System.Drawing.Point(72, 134);
-            this.button33.Margin = new System.Windows.Forms.Padding(1);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(60, 60);
-            this.button33.TabIndex = 36;
-            this.button33.Text = "W";
-            this.button33.UseVisualStyleBackColor = false;
-            // 
-            // button34
-            // 
-            this.button34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button34.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button34.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button34.FlatAppearance.BorderSize = 4;
-            this.button34.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button34.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button34.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button34.ForeColor = System.Drawing.Color.White;
-            this.button34.Location = new System.Drawing.Point(134, 134);
-            this.button34.Margin = new System.Windows.Forms.Padding(1);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(60, 60);
-            this.button34.TabIndex = 35;
-            this.button34.Text = "E";
-            this.button34.UseVisualStyleBackColor = false;
-            // 
-            // button35
-            // 
-            this.button35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button35.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button35.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button35.FlatAppearance.BorderSize = 4;
-            this.button35.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button35.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button35.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button35.ForeColor = System.Drawing.Color.White;
-            this.button35.Location = new System.Drawing.Point(196, 134);
-            this.button35.Margin = new System.Windows.Forms.Padding(1);
-            this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(60, 60);
-            this.button35.TabIndex = 34;
-            this.button35.Text = "R";
-            this.button35.UseVisualStyleBackColor = false;
-            // 
-            // button36
-            // 
-            this.button36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button36.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button36.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button36.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button36.FlatAppearance.BorderSize = 4;
-            this.button36.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button36.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button36.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button36.ForeColor = System.Drawing.Color.White;
-            this.button36.Location = new System.Drawing.Point(258, 134);
-            this.button36.Margin = new System.Windows.Forms.Padding(1);
-            this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(60, 60);
-            this.button36.TabIndex = 33;
-            this.button36.Text = "T";
-            this.button36.UseVisualStyleBackColor = false;
-            // 
-            // button37
-            // 
-            this.button37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button37.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button37.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button37.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button37.FlatAppearance.BorderSize = 4;
-            this.button37.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button37.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button37.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button37.ForeColor = System.Drawing.Color.White;
-            this.button37.Location = new System.Drawing.Point(320, 134);
-            this.button37.Margin = new System.Windows.Forms.Padding(1);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(60, 60);
-            this.button37.TabIndex = 32;
-            this.button37.Text = "Y";
-            this.button37.UseVisualStyleBackColor = false;
-            // 
-            // button39
-            // 
-            this.button39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button39.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button39.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button39.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button39.FlatAppearance.BorderSize = 4;
-            this.button39.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button39.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button39.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button39.ForeColor = System.Drawing.Color.White;
-            this.button39.Location = new System.Drawing.Point(382, 196);
-            this.button39.Margin = new System.Windows.Forms.Padding(1);
-            this.button39.Name = "button39";
-            this.button39.Size = new System.Drawing.Size(60, 60);
-            this.button39.TabIndex = 56;
-            this.button39.Text = "J";
-            this.button39.UseVisualStyleBackColor = false;
-            // 
-            // button40
-            // 
-            this.button40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button40.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button40.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button40.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button40.FlatAppearance.BorderSize = 4;
-            this.button40.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button40.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button40.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button40.ForeColor = System.Drawing.Color.White;
-            this.button40.Location = new System.Drawing.Point(444, 196);
-            this.button40.Margin = new System.Windows.Forms.Padding(1);
-            this.button40.Name = "button40";
-            this.button40.Size = new System.Drawing.Size(60, 60);
-            this.button40.TabIndex = 55;
-            this.button40.Text = "K";
-            this.button40.UseVisualStyleBackColor = false;
-            // 
-            // button41
-            // 
-            this.button41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button41.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button41.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button41.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button41.FlatAppearance.BorderSize = 4;
-            this.button41.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button41.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button41.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button41.ForeColor = System.Drawing.Color.White;
-            this.button41.Location = new System.Drawing.Point(506, 196);
-            this.button41.Margin = new System.Windows.Forms.Padding(1);
-            this.button41.Name = "button41";
-            this.button41.Size = new System.Drawing.Size(60, 60);
-            this.button41.TabIndex = 54;
-            this.button41.Text = "L";
-            this.button41.UseVisualStyleBackColor = false;
-            // 
-            // button45
-            // 
-            this.button45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button45.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button45.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button45.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button45.FlatAppearance.BorderSize = 4;
-            this.button45.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button45.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button45.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button45.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button45.ForeColor = System.Drawing.Color.White;
-            this.button45.Location = new System.Drawing.Point(10, 196);
-            this.button45.Margin = new System.Windows.Forms.Padding(1);
-            this.button45.Name = "button45";
-            this.button45.Size = new System.Drawing.Size(60, 60);
-            this.button45.TabIndex = 50;
-            this.button45.Text = "A";
-            this.button45.UseVisualStyleBackColor = false;
-            // 
-            // button46
-            // 
-            this.button46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button46.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button46.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button46.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button46.FlatAppearance.BorderSize = 4;
-            this.button46.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button46.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button46.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button46.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button46.ForeColor = System.Drawing.Color.White;
-            this.button46.Location = new System.Drawing.Point(72, 196);
-            this.button46.Margin = new System.Windows.Forms.Padding(1);
-            this.button46.Name = "button46";
-            this.button46.Size = new System.Drawing.Size(60, 60);
-            this.button46.TabIndex = 49;
-            this.button46.Text = "S";
-            this.button46.UseVisualStyleBackColor = false;
-            // 
-            // button47
-            // 
-            this.button47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button47.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button47.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button47.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button47.FlatAppearance.BorderSize = 4;
-            this.button47.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button47.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button47.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button47.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button47.ForeColor = System.Drawing.Color.White;
-            this.button47.Location = new System.Drawing.Point(134, 196);
-            this.button47.Margin = new System.Windows.Forms.Padding(1);
-            this.button47.Name = "button47";
-            this.button47.Size = new System.Drawing.Size(60, 60);
-            this.button47.TabIndex = 48;
-            this.button47.Text = "D";
-            this.button47.UseVisualStyleBackColor = false;
-            // 
-            // button48
-            // 
-            this.button48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button48.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button48.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button48.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button48.FlatAppearance.BorderSize = 4;
-            this.button48.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button48.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button48.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button48.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button48.ForeColor = System.Drawing.Color.White;
-            this.button48.Location = new System.Drawing.Point(196, 196);
-            this.button48.Margin = new System.Windows.Forms.Padding(1);
-            this.button48.Name = "button48";
-            this.button48.Size = new System.Drawing.Size(60, 60);
-            this.button48.TabIndex = 47;
-            this.button48.Text = "F";
-            this.button48.UseVisualStyleBackColor = false;
-            // 
-            // button49
-            // 
-            this.button49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button49.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button49.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button49.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button49.FlatAppearance.BorderSize = 4;
-            this.button49.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button49.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button49.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button49.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button49.ForeColor = System.Drawing.Color.White;
-            this.button49.Location = new System.Drawing.Point(258, 196);
-            this.button49.Margin = new System.Windows.Forms.Padding(1);
-            this.button49.Name = "button49";
-            this.button49.Size = new System.Drawing.Size(60, 60);
-            this.button49.TabIndex = 46;
-            this.button49.Text = "G";
-            this.button49.UseVisualStyleBackColor = false;
-            // 
-            // button50
-            // 
-            this.button50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button50.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button50.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button50.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button50.FlatAppearance.BorderSize = 4;
-            this.button50.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button50.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button50.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button50.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button50.ForeColor = System.Drawing.Color.White;
-            this.button50.Location = new System.Drawing.Point(320, 196);
-            this.button50.Margin = new System.Windows.Forms.Padding(1);
-            this.button50.Name = "button50";
-            this.button50.Size = new System.Drawing.Size(60, 60);
-            this.button50.TabIndex = 45;
-            this.button50.Text = "H";
-            this.button50.UseVisualStyleBackColor = false;
-            // 
-            // button52
-            // 
-            this.button52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button52.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button52.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button52.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button52.FlatAppearance.BorderSize = 4;
-            this.button52.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button52.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button52.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button52.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button52.ForeColor = System.Drawing.Color.White;
-            this.button52.Location = new System.Drawing.Point(382, 258);
-            this.button52.Margin = new System.Windows.Forms.Padding(1);
-            this.button52.Name = "button52";
-            this.button52.Size = new System.Drawing.Size(60, 60);
-            this.button52.TabIndex = 69;
-            this.button52.Text = "M";
-            this.button52.UseVisualStyleBackColor = false;
-            // 
-            // button58
-            // 
-            this.button58.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button58.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button58.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button58.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button58.FlatAppearance.BorderSize = 4;
-            this.button58.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button58.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button58.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button58.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button58.ForeColor = System.Drawing.Color.White;
-            this.button58.Location = new System.Drawing.Point(10, 258);
-            this.button58.Margin = new System.Windows.Forms.Padding(1);
-            this.button58.Name = "button58";
-            this.button58.Size = new System.Drawing.Size(60, 60);
-            this.button58.TabIndex = 63;
-            this.button58.Text = "Z";
-            this.button58.UseVisualStyleBackColor = false;
-            // 
-            // button59
-            // 
-            this.button59.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button59.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button59.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button59.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button59.FlatAppearance.BorderSize = 4;
-            this.button59.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button59.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button59.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button59.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button59.ForeColor = System.Drawing.Color.White;
-            this.button59.Location = new System.Drawing.Point(72, 258);
-            this.button59.Margin = new System.Windows.Forms.Padding(1);
-            this.button59.Name = "button59";
-            this.button59.Size = new System.Drawing.Size(60, 60);
-            this.button59.TabIndex = 62;
-            this.button59.Text = "X";
-            this.button59.UseVisualStyleBackColor = false;
+            // f6key
+            // 
+            this.f6key.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.f6key.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.f6key.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.f6key.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.f6key.FlatAppearance.BorderSize = 4;
+            this.f6key.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.f6key.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.f6key.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f6key.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.f6key.ForeColor = System.Drawing.Color.White;
+            this.f6key.Location = new System.Drawing.Point(382, 10);
+            this.f6key.Margin = new System.Windows.Forms.Padding(1);
+            this.f6key.Name = "f6key";
+            this.f6key.Size = new System.Drawing.Size(60, 60);
+            this.f6key.TabIndex = 5;
+            this.f6key.Text = "F6";
+            this.f6key.UseVisualStyleBackColor = false;
+            // 
+            // f5key
+            // 
+            this.f5key.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.f5key.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.f5key.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.f5key.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.f5key.FlatAppearance.BorderSize = 4;
+            this.f5key.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.f5key.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.f5key.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f5key.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.f5key.ForeColor = System.Drawing.Color.White;
+            this.f5key.Location = new System.Drawing.Point(320, 10);
+            this.f5key.Margin = new System.Windows.Forms.Padding(1);
+            this.f5key.Name = "f5key";
+            this.f5key.Size = new System.Drawing.Size(60, 60);
+            this.f5key.TabIndex = 6;
+            this.f5key.Text = "F5";
+            this.f5key.UseVisualStyleBackColor = false;
+            // 
+            // f4key
+            // 
+            this.f4key.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.f4key.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.f4key.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.f4key.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.f4key.FlatAppearance.BorderSize = 4;
+            this.f4key.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.f4key.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.f4key.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f4key.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.f4key.ForeColor = System.Drawing.Color.White;
+            this.f4key.Location = new System.Drawing.Point(258, 10);
+            this.f4key.Margin = new System.Windows.Forms.Padding(1);
+            this.f4key.Name = "f4key";
+            this.f4key.Size = new System.Drawing.Size(60, 60);
+            this.f4key.TabIndex = 7;
+            this.f4key.Text = "F4";
+            this.f4key.UseVisualStyleBackColor = false;
+            // 
+            // f3key
+            // 
+            this.f3key.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.f3key.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.f3key.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.f3key.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.f3key.FlatAppearance.BorderSize = 4;
+            this.f3key.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.f3key.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.f3key.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f3key.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.f3key.ForeColor = System.Drawing.Color.White;
+            this.f3key.Location = new System.Drawing.Point(196, 10);
+            this.f3key.Margin = new System.Windows.Forms.Padding(1);
+            this.f3key.Name = "f3key";
+            this.f3key.Size = new System.Drawing.Size(60, 60);
+            this.f3key.TabIndex = 8;
+            this.f3key.Text = "F3";
+            this.f3key.UseVisualStyleBackColor = false;
+            // 
+            // f2key
+            // 
+            this.f2key.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.f2key.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.f2key.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.f2key.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.f2key.FlatAppearance.BorderSize = 4;
+            this.f2key.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.f2key.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.f2key.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f2key.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.f2key.ForeColor = System.Drawing.Color.White;
+            this.f2key.Location = new System.Drawing.Point(134, 10);
+            this.f2key.Margin = new System.Windows.Forms.Padding(1);
+            this.f2key.Name = "f2key";
+            this.f2key.Size = new System.Drawing.Size(60, 60);
+            this.f2key.TabIndex = 9;
+            this.f2key.Text = "F2";
+            this.f2key.UseVisualStyleBackColor = false;
+            // 
+            // f1key
+            // 
+            this.f1key.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.f1key.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.f1key.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.f1key.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.f1key.FlatAppearance.BorderSize = 4;
+            this.f1key.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.f1key.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.f1key.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f1key.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.f1key.ForeColor = System.Drawing.Color.White;
+            this.f1key.Location = new System.Drawing.Point(72, 10);
+            this.f1key.Margin = new System.Windows.Forms.Padding(1);
+            this.f1key.Name = "f1key";
+            this.f1key.Size = new System.Drawing.Size(60, 60);
+            this.f1key.TabIndex = 10;
+            this.f1key.Text = "F1";
+            this.f1key.UseVisualStyleBackColor = false;
+            // 
+            // f12key
+            // 
+            this.f12key.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.f12key.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.f12key.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.f12key.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.f12key.FlatAppearance.BorderSize = 4;
+            this.f12key.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.f12key.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.f12key.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f12key.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.f12key.ForeColor = System.Drawing.Color.White;
+            this.f12key.Location = new System.Drawing.Point(754, 10);
+            this.f12key.Margin = new System.Windows.Forms.Padding(1);
+            this.f12key.Name = "f12key";
+            this.f12key.Size = new System.Drawing.Size(60, 60);
+            this.f12key.TabIndex = 12;
+            this.f12key.Text = "F12";
+            this.f12key.UseVisualStyleBackColor = false;
+            // 
+            // f11key
+            // 
+            this.f11key.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.f11key.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.f11key.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.f11key.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.f11key.FlatAppearance.BorderSize = 4;
+            this.f11key.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.f11key.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.f11key.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f11key.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.f11key.ForeColor = System.Drawing.Color.White;
+            this.f11key.Location = new System.Drawing.Point(692, 10);
+            this.f11key.Margin = new System.Windows.Forms.Padding(1);
+            this.f11key.Name = "f11key";
+            this.f11key.Size = new System.Drawing.Size(60, 60);
+            this.f11key.TabIndex = 13;
+            this.f11key.Text = "F11";
+            this.f11key.UseVisualStyleBackColor = false;
+            // 
+            // f10key
+            // 
+            this.f10key.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.f10key.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.f10key.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.f10key.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.f10key.FlatAppearance.BorderSize = 4;
+            this.f10key.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.f10key.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.f10key.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f10key.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.f10key.ForeColor = System.Drawing.Color.White;
+            this.f10key.Location = new System.Drawing.Point(630, 10);
+            this.f10key.Margin = new System.Windows.Forms.Padding(1);
+            this.f10key.Name = "f10key";
+            this.f10key.Size = new System.Drawing.Size(60, 60);
+            this.f10key.TabIndex = 14;
+            this.f10key.Text = "F10";
+            this.f10key.UseVisualStyleBackColor = false;
+            // 
+            // f9key
+            // 
+            this.f9key.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.f9key.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.f9key.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.f9key.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.f9key.FlatAppearance.BorderSize = 4;
+            this.f9key.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.f9key.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.f9key.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f9key.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.f9key.ForeColor = System.Drawing.Color.White;
+            this.f9key.Location = new System.Drawing.Point(568, 10);
+            this.f9key.Margin = new System.Windows.Forms.Padding(1);
+            this.f9key.Name = "f9key";
+            this.f9key.Size = new System.Drawing.Size(60, 60);
+            this.f9key.TabIndex = 15;
+            this.f9key.Text = "F9";
+            this.f9key.UseVisualStyleBackColor = false;
+            // 
+            // f8key
+            // 
+            this.f8key.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.f8key.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.f8key.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.f8key.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.f8key.FlatAppearance.BorderSize = 4;
+            this.f8key.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.f8key.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.f8key.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f8key.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.f8key.ForeColor = System.Drawing.Color.White;
+            this.f8key.Location = new System.Drawing.Point(506, 10);
+            this.f8key.Margin = new System.Windows.Forms.Padding(1);
+            this.f8key.Name = "f8key";
+            this.f8key.Size = new System.Drawing.Size(60, 60);
+            this.f8key.TabIndex = 16;
+            this.f8key.Text = "F8";
+            this.f8key.UseVisualStyleBackColor = false;
+            // 
+            // f7key
+            // 
+            this.f7key.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.f7key.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.f7key.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.f7key.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.f7key.FlatAppearance.BorderSize = 4;
+            this.f7key.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.f7key.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.f7key.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f7key.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.f7key.ForeColor = System.Drawing.Color.White;
+            this.f7key.Location = new System.Drawing.Point(444, 10);
+            this.f7key.Margin = new System.Windows.Forms.Padding(1);
+            this.f7key.Name = "f7key";
+            this.f7key.Size = new System.Drawing.Size(60, 60);
+            this.f7key.TabIndex = 17;
+            this.f7key.Text = "F7";
+            this.f7key.UseVisualStyleBackColor = false;
+            // 
+            // sevenkey
+            // 
+            this.sevenkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.sevenkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.sevenkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.sevenkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.sevenkey.FlatAppearance.BorderSize = 4;
+            this.sevenkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.sevenkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.sevenkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.sevenkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.sevenkey.ForeColor = System.Drawing.Color.White;
+            this.sevenkey.Location = new System.Drawing.Point(444, 72);
+            this.sevenkey.Margin = new System.Windows.Forms.Padding(1);
+            this.sevenkey.Name = "sevenkey";
+            this.sevenkey.Size = new System.Drawing.Size(60, 60);
+            this.sevenkey.TabIndex = 30;
+            this.sevenkey.Text = "7";
+            this.sevenkey.UseVisualStyleBackColor = false;
+            // 
+            // eightkey
+            // 
+            this.eightkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.eightkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.eightkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.eightkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.eightkey.FlatAppearance.BorderSize = 4;
+            this.eightkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.eightkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.eightkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.eightkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.eightkey.ForeColor = System.Drawing.Color.White;
+            this.eightkey.Location = new System.Drawing.Point(506, 72);
+            this.eightkey.Margin = new System.Windows.Forms.Padding(1);
+            this.eightkey.Name = "eightkey";
+            this.eightkey.Size = new System.Drawing.Size(60, 60);
+            this.eightkey.TabIndex = 29;
+            this.eightkey.Text = "8";
+            this.eightkey.UseVisualStyleBackColor = false;
+            // 
+            // ninekey
+            // 
+            this.ninekey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.ninekey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ninekey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ninekey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.ninekey.FlatAppearance.BorderSize = 4;
+            this.ninekey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.ninekey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.ninekey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ninekey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ninekey.ForeColor = System.Drawing.Color.White;
+            this.ninekey.Location = new System.Drawing.Point(568, 72);
+            this.ninekey.Margin = new System.Windows.Forms.Padding(1);
+            this.ninekey.Name = "ninekey";
+            this.ninekey.Size = new System.Drawing.Size(60, 60);
+            this.ninekey.TabIndex = 28;
+            this.ninekey.Text = "9";
+            this.ninekey.UseVisualStyleBackColor = false;
+            // 
+            // zerokey
+            // 
+            this.zerokey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.zerokey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.zerokey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.zerokey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.zerokey.FlatAppearance.BorderSize = 4;
+            this.zerokey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.zerokey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.zerokey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.zerokey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.zerokey.ForeColor = System.Drawing.Color.White;
+            this.zerokey.Location = new System.Drawing.Point(630, 72);
+            this.zerokey.Margin = new System.Windows.Forms.Padding(1);
+            this.zerokey.Name = "zerokey";
+            this.zerokey.Size = new System.Drawing.Size(60, 60);
+            this.zerokey.TabIndex = 27;
+            this.zerokey.Text = "0";
+            this.zerokey.UseVisualStyleBackColor = false;
+            // 
+            // onekey
+            // 
+            this.onekey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.onekey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.onekey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.onekey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.onekey.FlatAppearance.BorderSize = 4;
+            this.onekey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.onekey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.onekey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.onekey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.onekey.ForeColor = System.Drawing.Color.White;
+            this.onekey.Location = new System.Drawing.Point(72, 72);
+            this.onekey.Margin = new System.Windows.Forms.Padding(1);
+            this.onekey.Name = "onekey";
+            this.onekey.Size = new System.Drawing.Size(60, 60);
+            this.onekey.TabIndex = 24;
+            this.onekey.Text = "1";
+            this.onekey.UseVisualStyleBackColor = false;
+            // 
+            // twokey
+            // 
+            this.twokey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.twokey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.twokey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.twokey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.twokey.FlatAppearance.BorderSize = 4;
+            this.twokey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.twokey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.twokey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.twokey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.twokey.ForeColor = System.Drawing.Color.White;
+            this.twokey.Location = new System.Drawing.Point(134, 72);
+            this.twokey.Margin = new System.Windows.Forms.Padding(1);
+            this.twokey.Name = "twokey";
+            this.twokey.Size = new System.Drawing.Size(60, 60);
+            this.twokey.TabIndex = 23;
+            this.twokey.Text = "2";
+            this.twokey.UseVisualStyleBackColor = false;
+            // 
+            // threekey
+            // 
+            this.threekey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.threekey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.threekey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.threekey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.threekey.FlatAppearance.BorderSize = 4;
+            this.threekey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.threekey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.threekey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.threekey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.threekey.ForeColor = System.Drawing.Color.White;
+            this.threekey.Location = new System.Drawing.Point(196, 72);
+            this.threekey.Margin = new System.Windows.Forms.Padding(1);
+            this.threekey.Name = "threekey";
+            this.threekey.Size = new System.Drawing.Size(60, 60);
+            this.threekey.TabIndex = 22;
+            this.threekey.Text = "3";
+            this.threekey.UseVisualStyleBackColor = false;
+            // 
+            // fourkey
+            // 
+            this.fourkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.fourkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.fourkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.fourkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.fourkey.FlatAppearance.BorderSize = 4;
+            this.fourkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.fourkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.fourkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.fourkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.fourkey.ForeColor = System.Drawing.Color.White;
+            this.fourkey.Location = new System.Drawing.Point(258, 72);
+            this.fourkey.Margin = new System.Windows.Forms.Padding(1);
+            this.fourkey.Name = "fourkey";
+            this.fourkey.Size = new System.Drawing.Size(60, 60);
+            this.fourkey.TabIndex = 21;
+            this.fourkey.Text = "4";
+            this.fourkey.UseVisualStyleBackColor = false;
+            // 
+            // fivekey
+            // 
+            this.fivekey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.fivekey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.fivekey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.fivekey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.fivekey.FlatAppearance.BorderSize = 4;
+            this.fivekey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.fivekey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.fivekey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.fivekey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.fivekey.ForeColor = System.Drawing.Color.White;
+            this.fivekey.Location = new System.Drawing.Point(320, 72);
+            this.fivekey.Margin = new System.Windows.Forms.Padding(1);
+            this.fivekey.Name = "fivekey";
+            this.fivekey.Size = new System.Drawing.Size(60, 60);
+            this.fivekey.TabIndex = 20;
+            this.fivekey.Text = "5";
+            this.fivekey.UseVisualStyleBackColor = false;
+            // 
+            // sixkey
+            // 
+            this.sixkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.sixkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.sixkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.sixkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.sixkey.FlatAppearance.BorderSize = 4;
+            this.sixkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.sixkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.sixkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.sixkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.sixkey.ForeColor = System.Drawing.Color.White;
+            this.sixkey.Location = new System.Drawing.Point(382, 72);
+            this.sixkey.Margin = new System.Windows.Forms.Padding(1);
+            this.sixkey.Name = "sixkey";
+            this.sixkey.Size = new System.Drawing.Size(60, 60);
+            this.sixkey.TabIndex = 19;
+            this.sixkey.Text = "6";
+            this.sixkey.UseVisualStyleBackColor = false;
+            // 
+            // linekey
+            // 
+            this.linekey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.linekey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.linekey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.linekey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.linekey.FlatAppearance.BorderSize = 4;
+            this.linekey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.linekey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.linekey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.linekey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.linekey.ForeColor = System.Drawing.Color.White;
+            this.linekey.Location = new System.Drawing.Point(10, 72);
+            this.linekey.Margin = new System.Windows.Forms.Padding(1);
+            this.linekey.Name = "linekey";
+            this.linekey.Size = new System.Drawing.Size(60, 60);
+            this.linekey.TabIndex = 18;
+            this.linekey.Text = "~";
+            this.linekey.UseVisualStyleBackColor = false;
+            // 
+            // ukey
+            // 
+            this.ukey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.ukey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ukey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ukey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.ukey.FlatAppearance.BorderSize = 4;
+            this.ukey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.ukey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.ukey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ukey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ukey.ForeColor = System.Drawing.Color.White;
+            this.ukey.Location = new System.Drawing.Point(382, 134);
+            this.ukey.Margin = new System.Windows.Forms.Padding(1);
+            this.ukey.Name = "ukey";
+            this.ukey.Size = new System.Drawing.Size(60, 60);
+            this.ukey.TabIndex = 43;
+            this.ukey.Text = "U";
+            this.ukey.UseVisualStyleBackColor = false;
+            // 
+            // ikey
+            // 
+            this.ikey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.ikey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ikey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ikey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.ikey.FlatAppearance.BorderSize = 4;
+            this.ikey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.ikey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.ikey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ikey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ikey.ForeColor = System.Drawing.Color.White;
+            this.ikey.Location = new System.Drawing.Point(444, 134);
+            this.ikey.Margin = new System.Windows.Forms.Padding(1);
+            this.ikey.Name = "ikey";
+            this.ikey.Size = new System.Drawing.Size(60, 60);
+            this.ikey.TabIndex = 42;
+            this.ikey.Text = "I";
+            this.ikey.UseVisualStyleBackColor = false;
+            // 
+            // okey
+            // 
+            this.okey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.okey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.okey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.okey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.okey.FlatAppearance.BorderSize = 4;
+            this.okey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.okey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.okey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.okey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.okey.ForeColor = System.Drawing.Color.White;
+            this.okey.Location = new System.Drawing.Point(506, 134);
+            this.okey.Margin = new System.Windows.Forms.Padding(1);
+            this.okey.Name = "okey";
+            this.okey.Size = new System.Drawing.Size(60, 60);
+            this.okey.TabIndex = 41;
+            this.okey.Text = "O";
+            this.okey.UseVisualStyleBackColor = false;
+            // 
+            // pkey
+            // 
+            this.pkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.pkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.pkey.FlatAppearance.BorderSize = 4;
+            this.pkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.pkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.pkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.pkey.ForeColor = System.Drawing.Color.White;
+            this.pkey.Location = new System.Drawing.Point(568, 134);
+            this.pkey.Margin = new System.Windows.Forms.Padding(1);
+            this.pkey.Name = "pkey";
+            this.pkey.Size = new System.Drawing.Size(60, 60);
+            this.pkey.TabIndex = 40;
+            this.pkey.Text = "P";
+            this.pkey.UseVisualStyleBackColor = false;
+            // 
+            // qkey
+            // 
+            this.qkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.qkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.qkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.qkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.qkey.FlatAppearance.BorderSize = 4;
+            this.qkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.qkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.qkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.qkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.qkey.ForeColor = System.Drawing.Color.White;
+            this.qkey.Location = new System.Drawing.Point(10, 134);
+            this.qkey.Margin = new System.Windows.Forms.Padding(1);
+            this.qkey.Name = "qkey";
+            this.qkey.Size = new System.Drawing.Size(60, 60);
+            this.qkey.TabIndex = 37;
+            this.qkey.Text = "Q";
+            this.qkey.UseVisualStyleBackColor = false;
+            // 
+            // wkey
+            // 
+            this.wkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.wkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.wkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.wkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.wkey.FlatAppearance.BorderSize = 4;
+            this.wkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.wkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.wkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.wkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.wkey.ForeColor = System.Drawing.Color.White;
+            this.wkey.Location = new System.Drawing.Point(72, 134);
+            this.wkey.Margin = new System.Windows.Forms.Padding(1);
+            this.wkey.Name = "wkey";
+            this.wkey.Size = new System.Drawing.Size(60, 60);
+            this.wkey.TabIndex = 36;
+            this.wkey.Text = "W";
+            this.wkey.UseVisualStyleBackColor = false;
+            // 
+            // ekey
+            // 
+            this.ekey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.ekey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ekey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ekey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.ekey.FlatAppearance.BorderSize = 4;
+            this.ekey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.ekey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.ekey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ekey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ekey.ForeColor = System.Drawing.Color.White;
+            this.ekey.Location = new System.Drawing.Point(134, 134);
+            this.ekey.Margin = new System.Windows.Forms.Padding(1);
+            this.ekey.Name = "ekey";
+            this.ekey.Size = new System.Drawing.Size(60, 60);
+            this.ekey.TabIndex = 35;
+            this.ekey.Text = "E";
+            this.ekey.UseVisualStyleBackColor = false;
+            // 
+            // rkey
+            // 
+            this.rkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.rkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.rkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.rkey.FlatAppearance.BorderSize = 4;
+            this.rkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.rkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.rkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.rkey.ForeColor = System.Drawing.Color.White;
+            this.rkey.Location = new System.Drawing.Point(196, 134);
+            this.rkey.Margin = new System.Windows.Forms.Padding(1);
+            this.rkey.Name = "rkey";
+            this.rkey.Size = new System.Drawing.Size(60, 60);
+            this.rkey.TabIndex = 34;
+            this.rkey.Text = "R";
+            this.rkey.UseVisualStyleBackColor = false;
+            // 
+            // tkey
+            // 
+            this.tkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.tkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.tkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.tkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.tkey.FlatAppearance.BorderSize = 4;
+            this.tkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.tkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.tkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tkey.ForeColor = System.Drawing.Color.White;
+            this.tkey.Location = new System.Drawing.Point(258, 134);
+            this.tkey.Margin = new System.Windows.Forms.Padding(1);
+            this.tkey.Name = "tkey";
+            this.tkey.Size = new System.Drawing.Size(60, 60);
+            this.tkey.TabIndex = 33;
+            this.tkey.Text = "T";
+            this.tkey.UseVisualStyleBackColor = false;
+            // 
+            // ykey
+            // 
+            this.ykey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.ykey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ykey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ykey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.ykey.FlatAppearance.BorderSize = 4;
+            this.ykey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.ykey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.ykey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ykey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ykey.ForeColor = System.Drawing.Color.White;
+            this.ykey.Location = new System.Drawing.Point(320, 134);
+            this.ykey.Margin = new System.Windows.Forms.Padding(1);
+            this.ykey.Name = "ykey";
+            this.ykey.Size = new System.Drawing.Size(60, 60);
+            this.ykey.TabIndex = 32;
+            this.ykey.Text = "Y";
+            this.ykey.UseVisualStyleBackColor = false;
+            // 
+            // jkey
+            // 
+            this.jkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.jkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.jkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.jkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.jkey.FlatAppearance.BorderSize = 4;
+            this.jkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.jkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.jkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.jkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.jkey.ForeColor = System.Drawing.Color.White;
+            this.jkey.Location = new System.Drawing.Point(382, 196);
+            this.jkey.Margin = new System.Windows.Forms.Padding(1);
+            this.jkey.Name = "jkey";
+            this.jkey.Size = new System.Drawing.Size(60, 60);
+            this.jkey.TabIndex = 56;
+            this.jkey.Text = "J";
+            this.jkey.UseVisualStyleBackColor = false;
+            // 
+            // kkey
+            // 
+            this.kkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.kkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.kkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.kkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.kkey.FlatAppearance.BorderSize = 4;
+            this.kkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.kkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.kkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.kkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.kkey.ForeColor = System.Drawing.Color.White;
+            this.kkey.Location = new System.Drawing.Point(444, 196);
+            this.kkey.Margin = new System.Windows.Forms.Padding(1);
+            this.kkey.Name = "kkey";
+            this.kkey.Size = new System.Drawing.Size(60, 60);
+            this.kkey.TabIndex = 55;
+            this.kkey.Text = "K";
+            this.kkey.UseVisualStyleBackColor = false;
+            // 
+            // lkey
+            // 
+            this.lkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.lkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.lkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.lkey.FlatAppearance.BorderSize = 4;
+            this.lkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.lkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.lkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lkey.ForeColor = System.Drawing.Color.White;
+            this.lkey.Location = new System.Drawing.Point(506, 196);
+            this.lkey.Margin = new System.Windows.Forms.Padding(1);
+            this.lkey.Name = "lkey";
+            this.lkey.Size = new System.Drawing.Size(60, 60);
+            this.lkey.TabIndex = 54;
+            this.lkey.Text = "L";
+            this.lkey.UseVisualStyleBackColor = false;
+            // 
+            // akey
+            // 
+            this.akey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.akey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.akey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.akey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.akey.FlatAppearance.BorderSize = 4;
+            this.akey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.akey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.akey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.akey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.akey.ForeColor = System.Drawing.Color.White;
+            this.akey.Location = new System.Drawing.Point(10, 196);
+            this.akey.Margin = new System.Windows.Forms.Padding(1);
+            this.akey.Name = "akey";
+            this.akey.Size = new System.Drawing.Size(60, 60);
+            this.akey.TabIndex = 50;
+            this.akey.Text = "A";
+            this.akey.UseVisualStyleBackColor = false;
+            // 
+            // skey
+            // 
+            this.skey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.skey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.skey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.skey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.skey.FlatAppearance.BorderSize = 4;
+            this.skey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.skey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.skey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.skey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.skey.ForeColor = System.Drawing.Color.White;
+            this.skey.Location = new System.Drawing.Point(72, 196);
+            this.skey.Margin = new System.Windows.Forms.Padding(1);
+            this.skey.Name = "skey";
+            this.skey.Size = new System.Drawing.Size(60, 60);
+            this.skey.TabIndex = 49;
+            this.skey.Text = "S";
+            this.skey.UseVisualStyleBackColor = false;
+            // 
+            // dkey
+            // 
+            this.dkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.dkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.dkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.dkey.FlatAppearance.BorderSize = 4;
+            this.dkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.dkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.dkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.dkey.ForeColor = System.Drawing.Color.White;
+            this.dkey.Location = new System.Drawing.Point(134, 196);
+            this.dkey.Margin = new System.Windows.Forms.Padding(1);
+            this.dkey.Name = "dkey";
+            this.dkey.Size = new System.Drawing.Size(60, 60);
+            this.dkey.TabIndex = 48;
+            this.dkey.Text = "D";
+            this.dkey.UseVisualStyleBackColor = false;
+            // 
+            // fkey
+            // 
+            this.fkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.fkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.fkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.fkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.fkey.FlatAppearance.BorderSize = 4;
+            this.fkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.fkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.fkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.fkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.fkey.ForeColor = System.Drawing.Color.White;
+            this.fkey.Location = new System.Drawing.Point(196, 196);
+            this.fkey.Margin = new System.Windows.Forms.Padding(1);
+            this.fkey.Name = "fkey";
+            this.fkey.Size = new System.Drawing.Size(60, 60);
+            this.fkey.TabIndex = 47;
+            this.fkey.Text = "F";
+            this.fkey.UseVisualStyleBackColor = false;
+            // 
+            // gkey
+            // 
+            this.gkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.gkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.gkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.gkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.gkey.FlatAppearance.BorderSize = 4;
+            this.gkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.gkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.gkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.gkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.gkey.ForeColor = System.Drawing.Color.White;
+            this.gkey.Location = new System.Drawing.Point(258, 196);
+            this.gkey.Margin = new System.Windows.Forms.Padding(1);
+            this.gkey.Name = "gkey";
+            this.gkey.Size = new System.Drawing.Size(60, 60);
+            this.gkey.TabIndex = 46;
+            this.gkey.Text = "G";
+            this.gkey.UseVisualStyleBackColor = false;
+            // 
+            // hkey
+            // 
+            this.hkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.hkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.hkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.hkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.hkey.FlatAppearance.BorderSize = 4;
+            this.hkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.hkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.hkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.hkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.hkey.ForeColor = System.Drawing.Color.White;
+            this.hkey.Location = new System.Drawing.Point(320, 196);
+            this.hkey.Margin = new System.Windows.Forms.Padding(1);
+            this.hkey.Name = "hkey";
+            this.hkey.Size = new System.Drawing.Size(60, 60);
+            this.hkey.TabIndex = 45;
+            this.hkey.Text = "H";
+            this.hkey.UseVisualStyleBackColor = false;
+            // 
+            // mkey
+            // 
+            this.mkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.mkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.mkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.mkey.FlatAppearance.BorderSize = 4;
+            this.mkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.mkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.mkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.mkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.mkey.ForeColor = System.Drawing.Color.White;
+            this.mkey.Location = new System.Drawing.Point(382, 258);
+            this.mkey.Margin = new System.Windows.Forms.Padding(1);
+            this.mkey.Name = "mkey";
+            this.mkey.Size = new System.Drawing.Size(60, 60);
+            this.mkey.TabIndex = 69;
+            this.mkey.Text = "M";
+            this.mkey.UseVisualStyleBackColor = false;
+            // 
+            // zkey
+            // 
+            this.zkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.zkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.zkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.zkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.zkey.FlatAppearance.BorderSize = 4;
+            this.zkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.zkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.zkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.zkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.zkey.ForeColor = System.Drawing.Color.White;
+            this.zkey.Location = new System.Drawing.Point(10, 258);
+            this.zkey.Margin = new System.Windows.Forms.Padding(1);
+            this.zkey.Name = "zkey";
+            this.zkey.Size = new System.Drawing.Size(60, 60);
+            this.zkey.TabIndex = 63;
+            this.zkey.Text = "Z";
+            this.zkey.UseVisualStyleBackColor = false;
+            // 
+            // xkey
+            // 
+            this.xkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.xkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.xkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.xkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.xkey.FlatAppearance.BorderSize = 4;
+            this.xkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.xkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.xkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.xkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.xkey.ForeColor = System.Drawing.Color.White;
+            this.xkey.Location = new System.Drawing.Point(72, 258);
+            this.xkey.Margin = new System.Windows.Forms.Padding(1);
+            this.xkey.Name = "xkey";
+            this.xkey.Size = new System.Drawing.Size(60, 60);
+            this.xkey.TabIndex = 62;
+            this.xkey.Text = "X";
+            this.xkey.UseVisualStyleBackColor = false;
             // 
             // button60
             // 
@@ -1033,453 +1033,453 @@
             this.button60.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button60.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button60.ForeColor = System.Drawing.Color.White;
-            this.button60.Location = new System.Drawing.Point(134, 258);
+            this.button60.Location = new System.Drawing.Point(10, 10);
             this.button60.Margin = new System.Windows.Forms.Padding(1);
             this.button60.Name = "button60";
             this.button60.Size = new System.Drawing.Size(60, 60);
             this.button60.TabIndex = 61;
-            this.button60.Text = "C";
+            this.button60.Text = "ESC";
             this.button60.UseVisualStyleBackColor = false;
             // 
-            // button61
+            // vkey
             // 
-            this.button61.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button61.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button61.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button61.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button61.FlatAppearance.BorderSize = 4;
-            this.button61.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button61.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button61.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button61.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button61.ForeColor = System.Drawing.Color.White;
-            this.button61.Location = new System.Drawing.Point(196, 258);
-            this.button61.Margin = new System.Windows.Forms.Padding(1);
-            this.button61.Name = "button61";
-            this.button61.Size = new System.Drawing.Size(60, 60);
-            this.button61.TabIndex = 60;
-            this.button61.Text = "V";
-            this.button61.UseVisualStyleBackColor = false;
+            this.vkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.vkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.vkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.vkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.vkey.FlatAppearance.BorderSize = 4;
+            this.vkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.vkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.vkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.vkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.vkey.ForeColor = System.Drawing.Color.White;
+            this.vkey.Location = new System.Drawing.Point(196, 258);
+            this.vkey.Margin = new System.Windows.Forms.Padding(1);
+            this.vkey.Name = "vkey";
+            this.vkey.Size = new System.Drawing.Size(60, 60);
+            this.vkey.TabIndex = 60;
+            this.vkey.Text = "V";
+            this.vkey.UseVisualStyleBackColor = false;
             // 
-            // button62
+            // bkey
             // 
-            this.button62.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button62.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button62.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button62.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button62.FlatAppearance.BorderSize = 4;
-            this.button62.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button62.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button62.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button62.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button62.ForeColor = System.Drawing.Color.White;
-            this.button62.Location = new System.Drawing.Point(258, 258);
-            this.button62.Margin = new System.Windows.Forms.Padding(1);
-            this.button62.Name = "button62";
-            this.button62.Size = new System.Drawing.Size(60, 60);
-            this.button62.TabIndex = 59;
-            this.button62.Text = "B";
-            this.button62.UseVisualStyleBackColor = false;
+            this.bkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.bkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.bkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.bkey.FlatAppearance.BorderSize = 4;
+            this.bkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.bkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.bkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.bkey.ForeColor = System.Drawing.Color.White;
+            this.bkey.Location = new System.Drawing.Point(258, 258);
+            this.bkey.Margin = new System.Windows.Forms.Padding(1);
+            this.bkey.Name = "bkey";
+            this.bkey.Size = new System.Drawing.Size(60, 60);
+            this.bkey.TabIndex = 59;
+            this.bkey.Text = "B";
+            this.bkey.UseVisualStyleBackColor = false;
             // 
-            // button63
+            // nkey
             // 
-            this.button63.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button63.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button63.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button63.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button63.FlatAppearance.BorderSize = 4;
-            this.button63.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button63.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button63.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button63.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button63.ForeColor = System.Drawing.Color.White;
-            this.button63.Location = new System.Drawing.Point(320, 258);
-            this.button63.Margin = new System.Windows.Forms.Padding(1);
-            this.button63.Name = "button63";
-            this.button63.Size = new System.Drawing.Size(60, 60);
-            this.button63.TabIndex = 58;
-            this.button63.Text = "N";
-            this.button63.UseVisualStyleBackColor = false;
+            this.nkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.nkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.nkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.nkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.nkey.FlatAppearance.BorderSize = 4;
+            this.nkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.nkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.nkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.nkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.nkey.ForeColor = System.Drawing.Color.White;
+            this.nkey.Location = new System.Drawing.Point(320, 258);
+            this.nkey.Margin = new System.Windows.Forms.Padding(1);
+            this.nkey.Name = "nkey";
+            this.nkey.Size = new System.Drawing.Size(60, 60);
+            this.nkey.TabIndex = 58;
+            this.nkey.Text = "N";
+            this.nkey.UseVisualStyleBackColor = false;
             // 
-            // button17
+            // tabkey
             // 
-            this.button17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button17.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button17.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button17.FlatAppearance.BorderSize = 4;
-            this.button17.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button17.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button17.ForeColor = System.Drawing.Color.White;
-            this.button17.Location = new System.Drawing.Point(692, 134);
-            this.button17.Margin = new System.Windows.Forms.Padding(1);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(60, 60);
-            this.button17.TabIndex = 70;
-            this.button17.Text = "Tab";
-            this.button17.UseVisualStyleBackColor = false;
+            this.tabkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.tabkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.tabkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.tabkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.tabkey.FlatAppearance.BorderSize = 4;
+            this.tabkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.tabkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.tabkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tabkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tabkey.ForeColor = System.Drawing.Color.White;
+            this.tabkey.Location = new System.Drawing.Point(692, 134);
+            this.tabkey.Margin = new System.Windows.Forms.Padding(1);
+            this.tabkey.Name = "tabkey";
+            this.tabkey.Size = new System.Drawing.Size(60, 60);
+            this.tabkey.TabIndex = 70;
+            this.tabkey.Text = "Tab";
+            this.tabkey.UseVisualStyleBackColor = false;
             // 
-            // button18
+            // enterkey
             // 
-            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button18.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button18.FlatAppearance.BorderSize = 4;
-            this.button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button18.ForeColor = System.Drawing.Color.White;
-            this.button18.Location = new System.Drawing.Point(754, 134);
-            this.button18.Margin = new System.Windows.Forms.Padding(1);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(60, 60);
-            this.button18.TabIndex = 71;
-            this.button18.Text = "Enter";
-            this.button18.UseVisualStyleBackColor = false;
+            this.enterkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.enterkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.enterkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.enterkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.enterkey.FlatAppearance.BorderSize = 4;
+            this.enterkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.enterkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.enterkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.enterkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.enterkey.ForeColor = System.Drawing.Color.White;
+            this.enterkey.Location = new System.Drawing.Point(754, 134);
+            this.enterkey.Margin = new System.Windows.Forms.Padding(1);
+            this.enterkey.Name = "enterkey";
+            this.enterkey.Size = new System.Drawing.Size(60, 60);
+            this.enterkey.TabIndex = 71;
+            this.enterkey.Text = "Enter";
+            this.enterkey.UseVisualStyleBackColor = false;
             // 
-            // button30
+            // ctrlkey
             // 
-            this.button30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button30.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button30.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button30.FlatAppearance.BorderSize = 4;
-            this.button30.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button30.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button30.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button30.ForeColor = System.Drawing.Color.White;
-            this.button30.Location = new System.Drawing.Point(692, 258);
-            this.button30.Margin = new System.Windows.Forms.Padding(1);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(60, 60);
-            this.button30.TabIndex = 72;
-            this.button30.Text = "Ctrl";
-            this.button30.UseVisualStyleBackColor = false;
+            this.ctrlkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.ctrlkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ctrlkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ctrlkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.ctrlkey.FlatAppearance.BorderSize = 4;
+            this.ctrlkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.ctrlkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.ctrlkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ctrlkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ctrlkey.ForeColor = System.Drawing.Color.White;
+            this.ctrlkey.Location = new System.Drawing.Point(692, 258);
+            this.ctrlkey.Margin = new System.Windows.Forms.Padding(1);
+            this.ctrlkey.Name = "ctrlkey";
+            this.ctrlkey.Size = new System.Drawing.Size(60, 60);
+            this.ctrlkey.TabIndex = 72;
+            this.ctrlkey.Text = "Ctrl";
+            this.ctrlkey.UseVisualStyleBackColor = false;
             // 
-            // button31
+            // upkey
             // 
-            this.button31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button31.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button31.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button31.FlatAppearance.BorderSize = 4;
-            this.button31.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button31.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button31.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button31.ForeColor = System.Drawing.Color.White;
-            this.button31.Location = new System.Drawing.Point(568, 196);
-            this.button31.Margin = new System.Windows.Forms.Padding(1);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(60, 60);
-            this.button31.TabIndex = 73;
-            this.button31.Text = "Up";
-            this.button31.UseVisualStyleBackColor = false;
+            this.upkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.upkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.upkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.upkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.upkey.FlatAppearance.BorderSize = 4;
+            this.upkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.upkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.upkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.upkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.upkey.ForeColor = System.Drawing.Color.White;
+            this.upkey.Location = new System.Drawing.Point(568, 196);
+            this.upkey.Margin = new System.Windows.Forms.Padding(1);
+            this.upkey.Name = "upkey";
+            this.upkey.Size = new System.Drawing.Size(60, 60);
+            this.upkey.TabIndex = 73;
+            this.upkey.Text = "Up";
+            this.upkey.UseVisualStyleBackColor = false;
             // 
-            // button38
+            // backkey
             // 
-            this.button38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button38.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button38.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button38.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button38.FlatAppearance.BorderSize = 4;
-            this.button38.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button38.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button38.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button38.ForeColor = System.Drawing.Color.White;
-            this.button38.Location = new System.Drawing.Point(754, 72);
-            this.button38.Margin = new System.Windows.Forms.Padding(1);
-            this.button38.Name = "button38";
-            this.button38.Size = new System.Drawing.Size(60, 60);
-            this.button38.TabIndex = 74;
-            this.button38.Text = "Back";
-            this.button38.UseVisualStyleBackColor = false;
+            this.backkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.backkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.backkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.backkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.backkey.FlatAppearance.BorderSize = 4;
+            this.backkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.backkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.backkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.backkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.backkey.ForeColor = System.Drawing.Color.White;
+            this.backkey.Location = new System.Drawing.Point(754, 72);
+            this.backkey.Margin = new System.Windows.Forms.Padding(1);
+            this.backkey.Name = "backkey";
+            this.backkey.Size = new System.Drawing.Size(60, 60);
+            this.backkey.TabIndex = 74;
+            this.backkey.Text = "Back";
+            this.backkey.UseVisualStyleBackColor = false;
             // 
-            // button42
+            // shiftkey
             // 
-            this.button42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button42.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button42.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button42.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button42.FlatAppearance.BorderSize = 4;
-            this.button42.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button42.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button42.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button42.ForeColor = System.Drawing.Color.White;
-            this.button42.Location = new System.Drawing.Point(692, 196);
-            this.button42.Margin = new System.Windows.Forms.Padding(1);
-            this.button42.Name = "button42";
-            this.button42.Size = new System.Drawing.Size(60, 60);
-            this.button42.TabIndex = 75;
-            this.button42.Text = "Shift";
-            this.button42.UseVisualStyleBackColor = false;
+            this.shiftkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.shiftkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.shiftkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.shiftkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.shiftkey.FlatAppearance.BorderSize = 4;
+            this.shiftkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.shiftkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.shiftkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.shiftkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.shiftkey.ForeColor = System.Drawing.Color.White;
+            this.shiftkey.Location = new System.Drawing.Point(692, 196);
+            this.shiftkey.Margin = new System.Windows.Forms.Padding(1);
+            this.shiftkey.Name = "shiftkey";
+            this.shiftkey.Size = new System.Drawing.Size(60, 60);
+            this.shiftkey.TabIndex = 75;
+            this.shiftkey.Text = "Shift";
+            this.shiftkey.UseVisualStyleBackColor = false;
             // 
-            // button44
+            // deletekey
             // 
-            this.button44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button44.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button44.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button44.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button44.FlatAppearance.BorderSize = 4;
-            this.button44.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button44.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button44.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button44.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button44.ForeColor = System.Drawing.Color.White;
-            this.button44.Location = new System.Drawing.Point(630, 196);
-            this.button44.Margin = new System.Windows.Forms.Padding(1);
-            this.button44.Name = "button44";
-            this.button44.Size = new System.Drawing.Size(60, 60);
-            this.button44.TabIndex = 77;
-            this.button44.Text = "Delete";
-            this.button44.UseVisualStyleBackColor = false;
+            this.deletekey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.deletekey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.deletekey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.deletekey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.deletekey.FlatAppearance.BorderSize = 4;
+            this.deletekey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.deletekey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.deletekey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.deletekey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.deletekey.ForeColor = System.Drawing.Color.White;
+            this.deletekey.Location = new System.Drawing.Point(630, 196);
+            this.deletekey.Margin = new System.Windows.Forms.Padding(1);
+            this.deletekey.Name = "deletekey";
+            this.deletekey.Size = new System.Drawing.Size(60, 60);
+            this.deletekey.TabIndex = 77;
+            this.deletekey.Text = "Delete";
+            this.deletekey.UseVisualStyleBackColor = false;
             // 
-            // button51
+            // insertkey
             // 
-            this.button51.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button51.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button51.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button51.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button51.FlatAppearance.BorderSize = 4;
-            this.button51.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button51.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button51.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button51.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button51.ForeColor = System.Drawing.Color.White;
-            this.button51.Location = new System.Drawing.Point(630, 134);
-            this.button51.Margin = new System.Windows.Forms.Padding(1);
-            this.button51.Name = "button51";
-            this.button51.Size = new System.Drawing.Size(60, 60);
-            this.button51.TabIndex = 78;
-            this.button51.Text = "InSert";
-            this.button51.UseVisualStyleBackColor = false;
+            this.insertkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.insertkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.insertkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.insertkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.insertkey.FlatAppearance.BorderSize = 4;
+            this.insertkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.insertkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.insertkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.insertkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.insertkey.ForeColor = System.Drawing.Color.White;
+            this.insertkey.Location = new System.Drawing.Point(630, 134);
+            this.insertkey.Margin = new System.Windows.Forms.Padding(1);
+            this.insertkey.Name = "insertkey";
+            this.insertkey.Size = new System.Drawing.Size(60, 60);
+            this.insertkey.TabIndex = 78;
+            this.insertkey.Text = "InSert";
+            this.insertkey.UseVisualStyleBackColor = false;
             // 
-            // button53
+            // altkey
             // 
-            this.button53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button53.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button53.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button53.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button53.FlatAppearance.BorderSize = 4;
-            this.button53.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button53.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button53.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button53.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button53.ForeColor = System.Drawing.Color.White;
-            this.button53.Location = new System.Drawing.Point(754, 258);
-            this.button53.Margin = new System.Windows.Forms.Padding(1);
-            this.button53.Name = "button53";
-            this.button53.Size = new System.Drawing.Size(60, 60);
-            this.button53.TabIndex = 79;
-            this.button53.Text = "Alt";
-            this.button53.UseVisualStyleBackColor = false;
+            this.altkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.altkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.altkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.altkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.altkey.FlatAppearance.BorderSize = 4;
+            this.altkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.altkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.altkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.altkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.altkey.ForeColor = System.Drawing.Color.White;
+            this.altkey.Location = new System.Drawing.Point(754, 258);
+            this.altkey.Margin = new System.Windows.Forms.Padding(1);
+            this.altkey.Name = "altkey";
+            this.altkey.Size = new System.Drawing.Size(60, 60);
+            this.altkey.TabIndex = 79;
+            this.altkey.Text = "Alt";
+            this.altkey.UseVisualStyleBackColor = false;
             // 
-            // button54
+            // spacekey
             // 
-            this.button54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button54.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button54.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button54.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button54.FlatAppearance.BorderSize = 4;
-            this.button54.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button54.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button54.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button54.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button54.ForeColor = System.Drawing.Color.White;
-            this.button54.Location = new System.Drawing.Point(444, 258);
-            this.button54.Margin = new System.Windows.Forms.Padding(1);
-            this.button54.Name = "button54";
-            this.button54.Size = new System.Drawing.Size(60, 60);
-            this.button54.TabIndex = 80;
-            this.button54.Text = "Space";
-            this.button54.UseVisualStyleBackColor = false;
+            this.spacekey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.spacekey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.spacekey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.spacekey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.spacekey.FlatAppearance.BorderSize = 4;
+            this.spacekey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.spacekey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.spacekey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.spacekey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.spacekey.ForeColor = System.Drawing.Color.White;
+            this.spacekey.Location = new System.Drawing.Point(444, 258);
+            this.spacekey.Margin = new System.Windows.Forms.Padding(1);
+            this.spacekey.Name = "spacekey";
+            this.spacekey.Size = new System.Drawing.Size(60, 60);
+            this.spacekey.TabIndex = 80;
+            this.spacekey.Text = "Space";
+            this.spacekey.UseVisualStyleBackColor = false;
             // 
-            // button55
+            // leftkey
             // 
-            this.button55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button55.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button55.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button55.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button55.FlatAppearance.BorderSize = 4;
-            this.button55.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button55.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button55.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button55.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button55.ForeColor = System.Drawing.Color.White;
-            this.button55.Location = new System.Drawing.Point(506, 258);
-            this.button55.Margin = new System.Windows.Forms.Padding(1);
-            this.button55.Name = "button55";
-            this.button55.Size = new System.Drawing.Size(60, 60);
-            this.button55.TabIndex = 81;
-            this.button55.Text = "Left";
-            this.button55.UseVisualStyleBackColor = false;
+            this.leftkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.leftkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.leftkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.leftkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.leftkey.FlatAppearance.BorderSize = 4;
+            this.leftkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.leftkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.leftkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.leftkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.leftkey.ForeColor = System.Drawing.Color.White;
+            this.leftkey.Location = new System.Drawing.Point(506, 258);
+            this.leftkey.Margin = new System.Windows.Forms.Padding(1);
+            this.leftkey.Name = "leftkey";
+            this.leftkey.Size = new System.Drawing.Size(60, 60);
+            this.leftkey.TabIndex = 81;
+            this.leftkey.Text = "Left";
+            this.leftkey.UseVisualStyleBackColor = false;
             // 
-            // button56
+            // downkey
             // 
-            this.button56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button56.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button56.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button56.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button56.FlatAppearance.BorderSize = 4;
-            this.button56.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button56.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button56.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button56.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button56.ForeColor = System.Drawing.Color.White;
-            this.button56.Location = new System.Drawing.Point(568, 258);
-            this.button56.Margin = new System.Windows.Forms.Padding(1);
-            this.button56.Name = "button56";
-            this.button56.Size = new System.Drawing.Size(60, 60);
-            this.button56.TabIndex = 82;
-            this.button56.Text = "Down";
-            this.button56.UseVisualStyleBackColor = false;
+            this.downkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.downkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.downkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.downkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.downkey.FlatAppearance.BorderSize = 4;
+            this.downkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.downkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.downkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.downkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.downkey.ForeColor = System.Drawing.Color.White;
+            this.downkey.Location = new System.Drawing.Point(568, 258);
+            this.downkey.Margin = new System.Windows.Forms.Padding(1);
+            this.downkey.Name = "downkey";
+            this.downkey.Size = new System.Drawing.Size(60, 60);
+            this.downkey.TabIndex = 82;
+            this.downkey.Text = "Down";
+            this.downkey.UseVisualStyleBackColor = false;
             // 
-            // button57
+            // rightkey
             // 
-            this.button57.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button57.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button57.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button57.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button57.FlatAppearance.BorderSize = 4;
-            this.button57.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button57.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button57.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button57.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button57.ForeColor = System.Drawing.Color.White;
-            this.button57.Location = new System.Drawing.Point(630, 258);
-            this.button57.Margin = new System.Windows.Forms.Padding(1);
-            this.button57.Name = "button57";
-            this.button57.Size = new System.Drawing.Size(60, 60);
-            this.button57.TabIndex = 83;
-            this.button57.Text = "Right";
-            this.button57.UseVisualStyleBackColor = false;
+            this.rightkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.rightkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.rightkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rightkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.rightkey.FlatAppearance.BorderSize = 4;
+            this.rightkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.rightkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.rightkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rightkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.rightkey.ForeColor = System.Drawing.Color.White;
+            this.rightkey.Location = new System.Drawing.Point(630, 258);
+            this.rightkey.Margin = new System.Windows.Forms.Padding(1);
+            this.rightkey.Name = "rightkey";
+            this.rightkey.Size = new System.Drawing.Size(60, 60);
+            this.rightkey.TabIndex = 83;
+            this.rightkey.Text = "Right";
+            this.rightkey.UseVisualStyleBackColor = false;
             // 
-            // button64
+            // winkey
             // 
-            this.button64.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button64.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button64.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button64.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button64.FlatAppearance.BorderSize = 4;
-            this.button64.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button64.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button64.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button64.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button64.ForeColor = System.Drawing.Color.White;
-            this.button64.Location = new System.Drawing.Point(754, 196);
-            this.button64.Margin = new System.Windows.Forms.Padding(1);
-            this.button64.Name = "button64";
-            this.button64.Size = new System.Drawing.Size(60, 60);
-            this.button64.TabIndex = 84;
-            this.button64.Text = "Win";
-            this.button64.UseVisualStyleBackColor = false;
+            this.winkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.winkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.winkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.winkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.winkey.FlatAppearance.BorderSize = 4;
+            this.winkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.winkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.winkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.winkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.winkey.ForeColor = System.Drawing.Color.White;
+            this.winkey.Location = new System.Drawing.Point(754, 196);
+            this.winkey.Margin = new System.Windows.Forms.Padding(1);
+            this.winkey.Name = "winkey";
+            this.winkey.Size = new System.Drawing.Size(60, 60);
+            this.winkey.TabIndex = 84;
+            this.winkey.Text = "Win";
+            this.winkey.UseVisualStyleBackColor = false;
             // 
-            // button65
+            // endkey
             // 
-            this.button65.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button65.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button65.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button65.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button65.FlatAppearance.BorderSize = 4;
-            this.button65.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button65.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button65.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button65.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button65.ForeColor = System.Drawing.Color.White;
-            this.button65.Location = new System.Drawing.Point(816, 258);
-            this.button65.Margin = new System.Windows.Forms.Padding(1);
-            this.button65.Name = "button65";
-            this.button65.Size = new System.Drawing.Size(60, 60);
-            this.button65.TabIndex = 85;
-            this.button65.Text = "End";
-            this.button65.UseVisualStyleBackColor = false;
+            this.endkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.endkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.endkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.endkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.endkey.FlatAppearance.BorderSize = 4;
+            this.endkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.endkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.endkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.endkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.endkey.ForeColor = System.Drawing.Color.White;
+            this.endkey.Location = new System.Drawing.Point(816, 258);
+            this.endkey.Margin = new System.Windows.Forms.Padding(1);
+            this.endkey.Name = "endkey";
+            this.endkey.Size = new System.Drawing.Size(60, 60);
+            this.endkey.TabIndex = 85;
+            this.endkey.Text = "End";
+            this.endkey.UseVisualStyleBackColor = false;
             // 
-            // button66
+            // pgdnkey
             // 
-            this.button66.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button66.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button66.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button66.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button66.FlatAppearance.BorderSize = 4;
-            this.button66.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button66.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button66.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button66.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button66.ForeColor = System.Drawing.Color.White;
-            this.button66.Location = new System.Drawing.Point(816, 196);
-            this.button66.Margin = new System.Windows.Forms.Padding(1);
-            this.button66.Name = "button66";
-            this.button66.Size = new System.Drawing.Size(60, 60);
-            this.button66.TabIndex = 86;
-            this.button66.Text = "PgDn";
-            this.button66.UseVisualStyleBackColor = false;
+            this.pgdnkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.pgdnkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pgdnkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pgdnkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.pgdnkey.FlatAppearance.BorderSize = 4;
+            this.pgdnkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.pgdnkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pgdnkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.pgdnkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.pgdnkey.ForeColor = System.Drawing.Color.White;
+            this.pgdnkey.Location = new System.Drawing.Point(816, 196);
+            this.pgdnkey.Margin = new System.Windows.Forms.Padding(1);
+            this.pgdnkey.Name = "pgdnkey";
+            this.pgdnkey.Size = new System.Drawing.Size(60, 60);
+            this.pgdnkey.TabIndex = 86;
+            this.pgdnkey.Text = "PgDn";
+            this.pgdnkey.UseVisualStyleBackColor = false;
             // 
-            // button67
+            // pgupkey
             // 
-            this.button67.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button67.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button67.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button67.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button67.FlatAppearance.BorderSize = 4;
-            this.button67.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button67.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button67.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button67.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button67.ForeColor = System.Drawing.Color.White;
-            this.button67.Location = new System.Drawing.Point(816, 134);
-            this.button67.Margin = new System.Windows.Forms.Padding(1);
-            this.button67.Name = "button67";
-            this.button67.Size = new System.Drawing.Size(60, 60);
-            this.button67.TabIndex = 87;
-            this.button67.Text = "Pgup";
-            this.button67.UseVisualStyleBackColor = false;
+            this.pgupkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.pgupkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pgupkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pgupkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.pgupkey.FlatAppearance.BorderSize = 4;
+            this.pgupkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.pgupkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pgupkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.pgupkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.pgupkey.ForeColor = System.Drawing.Color.White;
+            this.pgupkey.Location = new System.Drawing.Point(816, 134);
+            this.pgupkey.Margin = new System.Windows.Forms.Padding(1);
+            this.pgupkey.Name = "pgupkey";
+            this.pgupkey.Size = new System.Drawing.Size(60, 60);
+            this.pgupkey.TabIndex = 87;
+            this.pgupkey.Text = "Pgup";
+            this.pgupkey.UseVisualStyleBackColor = false;
             // 
-            // button68
+            // homekey
             // 
-            this.button68.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button68.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button68.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button68.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button68.FlatAppearance.BorderSize = 4;
-            this.button68.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button68.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button68.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button68.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button68.ForeColor = System.Drawing.Color.White;
-            this.button68.Location = new System.Drawing.Point(816, 72);
-            this.button68.Margin = new System.Windows.Forms.Padding(1);
-            this.button68.Name = "button68";
-            this.button68.Size = new System.Drawing.Size(60, 60);
-            this.button68.TabIndex = 88;
-            this.button68.Text = "Home";
-            this.button68.UseVisualStyleBackColor = false;
+            this.homekey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.homekey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.homekey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.homekey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.homekey.FlatAppearance.BorderSize = 4;
+            this.homekey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.homekey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.homekey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.homekey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.homekey.ForeColor = System.Drawing.Color.White;
+            this.homekey.Location = new System.Drawing.Point(816, 72);
+            this.homekey.Margin = new System.Windows.Forms.Padding(1);
+            this.homekey.Name = "homekey";
+            this.homekey.Size = new System.Drawing.Size(60, 60);
+            this.homekey.TabIndex = 88;
+            this.homekey.Text = "Home";
+            this.homekey.UseVisualStyleBackColor = false;
             // 
-            // button69
+            // printkey
             // 
-            this.button69.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button69.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button69.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button69.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button69.FlatAppearance.BorderSize = 4;
-            this.button69.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button69.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button69.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button69.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button69.ForeColor = System.Drawing.Color.White;
-            this.button69.Location = new System.Drawing.Point(692, 72);
-            this.button69.Margin = new System.Windows.Forms.Padding(1);
-            this.button69.Name = "button69";
-            this.button69.Size = new System.Drawing.Size(60, 60);
-            this.button69.TabIndex = 89;
-            this.button69.Text = "PrtSc";
-            this.button69.UseVisualStyleBackColor = false;
+            this.printkey.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.printkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.printkey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.printkey.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.printkey.FlatAppearance.BorderSize = 4;
+            this.printkey.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.printkey.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.printkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.printkey.Font = new System.Drawing.Font("함초롬돋움", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.printkey.ForeColor = System.Drawing.Color.White;
+            this.printkey.Location = new System.Drawing.Point(692, 72);
+            this.printkey.Margin = new System.Windows.Forms.Padding(1);
+            this.printkey.Name = "printkey";
+            this.printkey.Size = new System.Drawing.Size(60, 60);
+            this.printkey.TabIndex = 89;
+            this.printkey.Text = "PrtSc";
+            this.printkey.UseVisualStyleBackColor = false;
             // 
             // button43
             // 
@@ -1508,74 +1508,74 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(887, 327);
             this.Controls.Add(this.button43);
-            this.Controls.Add(this.button69);
-            this.Controls.Add(this.button68);
-            this.Controls.Add(this.button67);
-            this.Controls.Add(this.button66);
-            this.Controls.Add(this.button65);
-            this.Controls.Add(this.button64);
-            this.Controls.Add(this.button57);
-            this.Controls.Add(this.button56);
-            this.Controls.Add(this.button55);
-            this.Controls.Add(this.button54);
-            this.Controls.Add(this.button53);
-            this.Controls.Add(this.button51);
-            this.Controls.Add(this.button44);
-            this.Controls.Add(this.button42);
-            this.Controls.Add(this.button38);
-            this.Controls.Add(this.button31);
-            this.Controls.Add(this.button30);
-            this.Controls.Add(this.button18);
-            this.Controls.Add(this.button17);
-            this.Controls.Add(this.button52);
-            this.Controls.Add(this.button58);
-            this.Controls.Add(this.button59);
+            this.Controls.Add(this.printkey);
+            this.Controls.Add(this.homekey);
+            this.Controls.Add(this.pgupkey);
+            this.Controls.Add(this.pgdnkey);
+            this.Controls.Add(this.endkey);
+            this.Controls.Add(this.winkey);
+            this.Controls.Add(this.rightkey);
+            this.Controls.Add(this.downkey);
+            this.Controls.Add(this.leftkey);
+            this.Controls.Add(this.spacekey);
+            this.Controls.Add(this.altkey);
+            this.Controls.Add(this.insertkey);
+            this.Controls.Add(this.deletekey);
+            this.Controls.Add(this.shiftkey);
+            this.Controls.Add(this.backkey);
+            this.Controls.Add(this.upkey);
+            this.Controls.Add(this.ctrlkey);
+            this.Controls.Add(this.enterkey);
+            this.Controls.Add(this.tabkey);
+            this.Controls.Add(this.mkey);
+            this.Controls.Add(this.zkey);
+            this.Controls.Add(this.xkey);
             this.Controls.Add(this.button60);
-            this.Controls.Add(this.button61);
-            this.Controls.Add(this.button62);
-            this.Controls.Add(this.button63);
-            this.Controls.Add(this.button39);
-            this.Controls.Add(this.button40);
-            this.Controls.Add(this.button41);
-            this.Controls.Add(this.button45);
-            this.Controls.Add(this.button46);
-            this.Controls.Add(this.button47);
-            this.Controls.Add(this.button48);
-            this.Controls.Add(this.button49);
-            this.Controls.Add(this.button50);
-            this.Controls.Add(this.button26);
-            this.Controls.Add(this.button27);
-            this.Controls.Add(this.button28);
-            this.Controls.Add(this.button29);
-            this.Controls.Add(this.button32);
-            this.Controls.Add(this.button33);
-            this.Controls.Add(this.button34);
-            this.Controls.Add(this.button35);
-            this.Controls.Add(this.button36);
-            this.Controls.Add(this.button37);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button14);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.button19);
-            this.Controls.Add(this.button20);
-            this.Controls.Add(this.button21);
-            this.Controls.Add(this.button22);
-            this.Controls.Add(this.button23);
-            this.Controls.Add(this.button24);
-            this.Controls.Add(this.button25);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.vkey);
+            this.Controls.Add(this.bkey);
+            this.Controls.Add(this.nkey);
+            this.Controls.Add(this.jkey);
+            this.Controls.Add(this.kkey);
+            this.Controls.Add(this.lkey);
+            this.Controls.Add(this.akey);
+            this.Controls.Add(this.skey);
+            this.Controls.Add(this.dkey);
+            this.Controls.Add(this.fkey);
+            this.Controls.Add(this.gkey);
+            this.Controls.Add(this.hkey);
+            this.Controls.Add(this.ukey);
+            this.Controls.Add(this.ikey);
+            this.Controls.Add(this.okey);
+            this.Controls.Add(this.pkey);
+            this.Controls.Add(this.qkey);
+            this.Controls.Add(this.wkey);
+            this.Controls.Add(this.ekey);
+            this.Controls.Add(this.rkey);
+            this.Controls.Add(this.tkey);
+            this.Controls.Add(this.ykey);
+            this.Controls.Add(this.sevenkey);
+            this.Controls.Add(this.eightkey);
+            this.Controls.Add(this.ninekey);
+            this.Controls.Add(this.zerokey);
+            this.Controls.Add(this.onekey);
+            this.Controls.Add(this.twokey);
+            this.Controls.Add(this.threekey);
+            this.Controls.Add(this.fourkey);
+            this.Controls.Add(this.fivekey);
+            this.Controls.Add(this.sixkey);
+            this.Controls.Add(this.linekey);
+            this.Controls.Add(this.f7key);
+            this.Controls.Add(this.f8key);
+            this.Controls.Add(this.f9key);
+            this.Controls.Add(this.f10key);
+            this.Controls.Add(this.f11key);
+            this.Controls.Add(this.f12key);
+            this.Controls.Add(this.f1key);
+            this.Controls.Add(this.f2key);
+            this.Controls.Add(this.f3key);
+            this.Controls.Add(this.f4key);
+            this.Controls.Add(this.f5key);
+            this.Controls.Add(this.f6key);
             this.Controls.Add(this.ckey);
             this.Name = "KeyBoard";
             this.Text = "Form3";
@@ -1585,74 +1585,74 @@
 
         #endregion
         private System.Windows.Forms.Button ckey;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Button button25;
-        private System.Windows.Forms.Button button26;
-        private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.Button button28;
-        private System.Windows.Forms.Button button29;
-        private System.Windows.Forms.Button button32;
-        private System.Windows.Forms.Button button33;
-        private System.Windows.Forms.Button button34;
-        private System.Windows.Forms.Button button35;
-        private System.Windows.Forms.Button button36;
-        private System.Windows.Forms.Button button37;
-        private System.Windows.Forms.Button button39;
-        private System.Windows.Forms.Button button40;
-        private System.Windows.Forms.Button button41;
-        private System.Windows.Forms.Button button45;
-        private System.Windows.Forms.Button button46;
-        private System.Windows.Forms.Button button47;
-        private System.Windows.Forms.Button button48;
-        private System.Windows.Forms.Button button49;
-        private System.Windows.Forms.Button button50;
-        private System.Windows.Forms.Button button52;
-        private System.Windows.Forms.Button button58;
-        private System.Windows.Forms.Button button59;
+        private System.Windows.Forms.Button f6key;
+        private System.Windows.Forms.Button f5key;
+        private System.Windows.Forms.Button f4key;
+        private System.Windows.Forms.Button f3key;
+        private System.Windows.Forms.Button f2key;
+        private System.Windows.Forms.Button f1key;
+        private System.Windows.Forms.Button f12key;
+        private System.Windows.Forms.Button f11key;
+        private System.Windows.Forms.Button f10key;
+        private System.Windows.Forms.Button f9key;
+        private System.Windows.Forms.Button f8key;
+        private System.Windows.Forms.Button f7key;
+        private System.Windows.Forms.Button sevenkey;
+        private System.Windows.Forms.Button eightkey;
+        private System.Windows.Forms.Button ninekey;
+        private System.Windows.Forms.Button zerokey;
+        private System.Windows.Forms.Button onekey;
+        private System.Windows.Forms.Button twokey;
+        private System.Windows.Forms.Button threekey;
+        private System.Windows.Forms.Button fourkey;
+        private System.Windows.Forms.Button fivekey;
+        private System.Windows.Forms.Button sixkey;
+        private System.Windows.Forms.Button linekey;
+        private System.Windows.Forms.Button ukey;
+        private System.Windows.Forms.Button ikey;
+        private System.Windows.Forms.Button okey;
+        private System.Windows.Forms.Button pkey;
+        private System.Windows.Forms.Button qkey;
+        private System.Windows.Forms.Button wkey;
+        private System.Windows.Forms.Button ekey;
+        private System.Windows.Forms.Button rkey;
+        private System.Windows.Forms.Button tkey;
+        private System.Windows.Forms.Button ykey;
+        private System.Windows.Forms.Button jkey;
+        private System.Windows.Forms.Button kkey;
+        private System.Windows.Forms.Button lkey;
+        private System.Windows.Forms.Button akey;
+        private System.Windows.Forms.Button skey;
+        private System.Windows.Forms.Button dkey;
+        private System.Windows.Forms.Button fkey;
+        private System.Windows.Forms.Button gkey;
+        private System.Windows.Forms.Button hkey;
+        private System.Windows.Forms.Button mkey;
+        private System.Windows.Forms.Button zkey;
+        private System.Windows.Forms.Button xkey;
         private System.Windows.Forms.Button button60;
-        private System.Windows.Forms.Button button61;
-        private System.Windows.Forms.Button button62;
-        private System.Windows.Forms.Button button63;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button30;
-        private System.Windows.Forms.Button button31;
-        private System.Windows.Forms.Button button38;
-        private System.Windows.Forms.Button button42;
-        private System.Windows.Forms.Button button44;
-        private System.Windows.Forms.Button button51;
-        private System.Windows.Forms.Button button53;
-        private System.Windows.Forms.Button button54;
-        private System.Windows.Forms.Button button55;
-        private System.Windows.Forms.Button button56;
-        private System.Windows.Forms.Button button57;
-        private System.Windows.Forms.Button button64;
-        private System.Windows.Forms.Button button65;
-        private System.Windows.Forms.Button button66;
-        private System.Windows.Forms.Button button67;
-        private System.Windows.Forms.Button button68;
-        private System.Windows.Forms.Button button69;
+        private System.Windows.Forms.Button vkey;
+        private System.Windows.Forms.Button bkey;
+        private System.Windows.Forms.Button nkey;
+        private System.Windows.Forms.Button tabkey;
+        private System.Windows.Forms.Button enterkey;
+        private System.Windows.Forms.Button ctrlkey;
+        private System.Windows.Forms.Button upkey;
+        private System.Windows.Forms.Button backkey;
+        private System.Windows.Forms.Button shiftkey;
+        private System.Windows.Forms.Button deletekey;
+        private System.Windows.Forms.Button insertkey;
+        private System.Windows.Forms.Button altkey;
+        private System.Windows.Forms.Button spacekey;
+        private System.Windows.Forms.Button leftkey;
+        private System.Windows.Forms.Button downkey;
+        private System.Windows.Forms.Button rightkey;
+        private System.Windows.Forms.Button winkey;
+        private System.Windows.Forms.Button endkey;
+        private System.Windows.Forms.Button pgdnkey;
+        private System.Windows.Forms.Button pgupkey;
+        private System.Windows.Forms.Button homekey;
+        private System.Windows.Forms.Button printkey;
         private System.Windows.Forms.Button button43;
     }
 }

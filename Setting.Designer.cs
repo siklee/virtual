@@ -36,7 +36,8 @@
             // 
             // add
             // 
-            this.add.Location = new System.Drawing.Point(0, 1);
+            this.add.Location = new System.Drawing.Point(0, 0);
+            this.add.Margin = new System.Windows.Forms.Padding(1);
             this.add.Name = "add";
             this.add.Size = new System.Drawing.Size(168, 30);
             this.add.TabIndex = 0;
@@ -46,7 +47,8 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(0, 37);
+            this.button2.Location = new System.Drawing.Point(0, 32);
+            this.button2.Margin = new System.Windows.Forms.Padding(1);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(168, 30);
             this.button2.TabIndex = 1;
@@ -56,7 +58,8 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(0, 73);
+            this.button3.Location = new System.Drawing.Point(0, 64);
+            this.button3.Margin = new System.Windows.Forms.Padding(1);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(168, 30);
             this.button3.TabIndex = 2;
@@ -66,7 +69,8 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(0, 109);
+            this.button5.Location = new System.Drawing.Point(0, 96);
+            this.button5.Margin = new System.Windows.Forms.Padding(1);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(168, 30);
             this.button5.TabIndex = 4;
@@ -78,7 +82,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(155, 128);
+            this.ClientSize = new System.Drawing.Size(167, 126);
             this.ControlBox = false;
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button3);
