@@ -59,6 +59,7 @@ namespace virtualKeyBoard.KeySet
                 this.SetDesktopLocation(MousePosition.X, MousePosition.Y);
                 locationX = MousePosition.X;
                 locationY = MousePosition.Y;
+                
             }
         }
     }

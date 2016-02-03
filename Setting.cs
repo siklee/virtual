@@ -51,48 +51,36 @@ namespace virtualKeyBoard
         private void button2_Click(object sender, EventArgs e)
         {
             SetOfKey inKey = SetOfKey.Instance();
-
-            IFormatter formatter = new BinaryFormatter();
-            string fileName = "keySetting.bin";
-            Stream stream = new FileStream(fileName, FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, inKey.keyInformation[0]);
-            stream.Close();
-
-            /*
-            IFormatter formatter = new BinaryFormatter();
-            string fileName = "keySetting.bin";
-            Stream stream = new FileStream(fileName, FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, inKey.keyInformation[0]);
-            stream.Close();
-            */
-
+            
+            for (int i = 0; i < 70; i++)
+            {
+                IFormatter formatter = new BinaryFormatter();
+                string fileName = "keySetting" + i + ".bin";
+                Stream stream = new FileStream(fileName, FileMode.Create, FileAccess.Write, FileShare.None);
+                formatter.Serialize(stream, inKey.keyInformation[i]);
+                stream.Close();
+            }
         }
 
 
         //키보드 상태를 불러옴    저장된 키보드를 불러와야된다 위치 onoff여부 등
         private void button3_Click(object sender, EventArgs e)
         {
-
             SetOfKey outKey = SetOfKey.Instance();
-
-            IFormatter formatter = new BinaryFormatter();
-            Stream stream = new FileStream("keySetting.bin", FileMode.Open, FileAccess.Read, FileShare.Read);
-            outKey.keyInformation[0]= (Keyinfo)formatter.Deserialize(stream);
-            stream.Close();
-
-
-
-            /*
-            IFormatter formatter = new BinaryFormatter();
-            Stream stream = new FileStream("keySetting.bin", FileMode.Open, FileAccess.Read, FileShare.Read);
-            outKey.keyInformation[0] = (Keyinfo)formatter.Deserialize(stream);
-            stream.Close();
-            */
-            if (outKey.keyInformation[0].isKeyOpen == true)
+            for (int i = 0; i < 70; i++)
             {
-                outKey.keyValue[0].Show();
-            }
+                IFormatter formatter = new BinaryFormatter();
+                string fileName = "keySetting" + i + ".bin";
+                Stream stream = new FileStream(fileName, FileMode.Open, FileAccess.Read, FileShare.Read);
+                outKey.keyInformation[i] = (Keyinfo)formatter.Deserialize(stream);
+                stream.Close();
 
+                if (outKey.keyInformation[i].isKeyOpen == true)
+                {
+                    outKey.keyValue[i].Show();
+                    outKey.keyValue[i].SetDesktopLocation(outKey.keyInformation[i].locationX, outKey.keyInformation[i].locationY);
+                }
+            }
         }   
     }
 }
