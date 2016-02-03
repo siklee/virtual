@@ -14,9 +14,8 @@ namespace virtualKeyBoard.KeySet
     
     public partial class TestKey : Form
     {
+        public Keyinfo infomation = new Keyinfo();
         public string key;
-        public int locationX;
-        public int locationY;
         
 
         public TestKey(string key)
@@ -57,10 +56,29 @@ namespace virtualKeyBoard.KeySet
             if (SetOfKey.keyBoardMode == 2)
             {
                 this.SetDesktopLocation(MousePosition.X, MousePosition.Y);
-                locationX = MousePosition.X;
-                locationY = MousePosition.Y;
+                infomation.locationX = MousePosition.X;
+                infomation.locationY = MousePosition.Y;
                 
             }
         }
+    }
+
+    [Serializable]
+    public class Keyinfo
+    {
+        public bool isKeyOpen;
+        public int locationX;
+        public int locationY;
+
+
+
+
+        public Keyinfo()
+        {
+            isKeyOpen = false;
+            locationX = 100;
+            locationY = 100;
+        }
+
     }
 }

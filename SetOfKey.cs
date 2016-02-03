@@ -20,8 +20,6 @@ namespace virtualKeyBoard
         public static int keyBoardMode = 0;   // off 0 on 1 setting 2
         public static bool isKeyBoardOpen = false;
 
-
-        public Keyinfo[] keyInformation= new Keyinfo[71];
         public TestKey[] keyValue = new TestKey[71];
         
 
@@ -108,32 +106,7 @@ namespace virtualKeyBoard
             keyValue[67] = new TestKey("%");
             keyValue[68] = new TestKey("END");
             keyValue[69] = new TestKey("{F12}");
-
-            for (int i = 0; i < 70; i++)
-            {
-                keyInformation[i] = new Keyinfo();
-            }
-
+            
         }
-    }
-
-
-    [Serializable]
-    public class Keyinfo
-    {
-        public bool isKeyOpen;
-        public int locationX;
-        public int locationY;
-        public string keyValue;
-
-   
-
-        public Keyinfo()
-        {
-            isKeyOpen = false;
-            locationX = 100;
-            locationY = 100;
-        }
-      
     }
 }

@@ -18,6 +18,7 @@ namespace virtualKeyBoard
     {
 
         Setting st = new Setting();
+        SetOfKey sof = SetOfKey.Instance();
 
         public Controler()
         {
@@ -27,18 +28,29 @@ namespace virtualKeyBoard
         // 컨트롤 클릭시 조작  on / off 조작 
         private void Form1_Click(object sender, EventArgs e)
         {
-           
+     
             st.Hide();
             if (SetOfKey.keyBoardMode == 0)
             {
                 this.BackgroundImage = global::virtualKeyBoard.Properties.Resources.greenkey;
                 SetOfKey.keyBoardMode = 1;
-                
+                for (int i = 0; i < 70; i++)
+                {
+                    if (sof.keyValue[i].infomation.isKeyOpen == true)
+                    {
+                        sof.keyValue[i].Show();
+                    }
+                }
+
             }
             else
             {
                 this.BackgroundImage = global::virtualKeyBoard.Properties.Resources.redkey;
                 SetOfKey.keyBoardMode = 0;
+                for (int i = 0; i < 70; i++)
+                {
+                    sof.keyValue[i].Hide();
+                }
             }
         }
 
@@ -60,6 +72,13 @@ namespace virtualKeyBoard
                 if (!st.IsAccessible)
                 {
                     st.Show();         // 설정창 출력
+                }
+                for (int i = 0; i < 70; i++)
+                {
+                    if (sof.keyValue[i].infomation.isKeyOpen == true)
+                    {
+                        sof.keyValue[i].Show();
+                    }
                 }
             }
         }

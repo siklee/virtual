@@ -31,18 +31,7 @@ namespace virtualKeyBoard
 
         private void ESC_Click(object sender, EventArgs e)
         {
-            if(info.keyInformation[0].isKeyOpen==true)
-            {
-                info.keyValue[0].Hide();
-                this.ESC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-                info.keyInformation[0].isKeyOpen = false;
-            }
-            else
-            {
-                info.keyValue[0].Show();
-                this.ESC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-                info.keyInformation[0].isKeyOpen = true;
-            }
+            popUpKey(0, ESC);
         }
 
         private void f1key_Click(object sender, EventArgs e)
@@ -383,17 +372,17 @@ namespace virtualKeyBoard
 
         public void popUpKey(int number,Button sender)
         {
-            if (info.keyInformation[number].isKeyOpen == true)
+            if (info.keyValue[number].infomation.isKeyOpen == true)
             {
                 info.keyValue[number].Hide();
                 sender.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-                info.keyInformation[number].isKeyOpen = false;
+                info.keyValue[number].infomation.isKeyOpen = false;
             }
             else
             {
                 info.keyValue[number].Show();
                 sender.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-                info.keyInformation[number].isKeyOpen = true;
+                info.keyValue[number].infomation.isKeyOpen = true;
             }
         }
     }
