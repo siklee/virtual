@@ -16,11 +16,15 @@ namespace virtualKeyBoard.KeySet
     {
         public Keyinfo infomation = new Keyinfo();
         public string key;
+        public string outputkey;
         
 
-        public TestKey(string key)
+        public TestKey(string key,string outputkey)
         {
             this.key = key;
+            this.outputkey = outputkey;
+            label1.Name = outputkey;
+
             InitializeComponent();
         }
         public TestKey()

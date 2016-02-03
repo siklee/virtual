@@ -30,7 +30,22 @@ namespace virtualKeyBoard.KeySet
         /// </summary>
         private void InitializeComponent()
         {
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.Font = new System.Drawing.Font("굴림", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(28, 30);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(30, 27);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "A";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // TestKey
             // 
@@ -39,6 +54,7 @@ namespace virtualKeyBoard.KeySet
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(90, 90);
             this.ControlBox = false;
+            this.Controls.Add(this.label1);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.ForeColor = System.Drawing.Color.Purple;
@@ -57,5 +73,7 @@ namespace virtualKeyBoard.KeySet
         }
 
         #endregion
+
+        private System.Windows.Forms.Label label1;
     }
 }
