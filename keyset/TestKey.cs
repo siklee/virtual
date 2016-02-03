@@ -11,11 +11,13 @@ using System.Media;
 
 namespace virtualKeyBoard.KeySet
 {
+    
     public partial class TestKey : Form
     {
-        private string key;
+        public string key;
         public int locationX;
         public int locationY;
+        
 
         public TestKey(string key)
         {

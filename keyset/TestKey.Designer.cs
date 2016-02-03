@@ -1,4 +1,6 @@
-﻿namespace virtualKeyBoard.KeySet
+﻿using System;
+
+namespace virtualKeyBoard.KeySet
 {
     partial class TestKey
     {

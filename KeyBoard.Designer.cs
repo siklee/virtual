@@ -119,6 +119,7 @@
             this.ckey.TabIndex = 4;
             this.ckey.Text = "C";
             this.ckey.UseVisualStyleBackColor = false;
+            this.ckey.Click += new System.EventHandler(this.ckey_Click);
             // 
             // f6key
             // 
@@ -139,6 +140,7 @@
             this.f6key.TabIndex = 5;
             this.f6key.Text = "F6";
             this.f6key.UseVisualStyleBackColor = false;
+            this.f6key.Click += new System.EventHandler(this.f6key_Click);
             // 
             // f5key
             // 
@@ -159,6 +161,7 @@
             this.f5key.TabIndex = 6;
             this.f5key.Text = "F5";
             this.f5key.UseVisualStyleBackColor = false;
+            this.f5key.Click += new System.EventHandler(this.f5key_Click);
             // 
             // f4key
             // 
@@ -179,6 +182,7 @@
             this.f4key.TabIndex = 7;
             this.f4key.Text = "F4";
             this.f4key.UseVisualStyleBackColor = false;
+            this.f4key.Click += new System.EventHandler(this.f4key_Click);
             // 
             // f3key
             // 
@@ -199,6 +203,7 @@
             this.f3key.TabIndex = 8;
             this.f3key.Text = "F3";
             this.f3key.UseVisualStyleBackColor = false;
+            this.f3key.Click += new System.EventHandler(this.f3key_Click);
             // 
             // f2key
             // 
@@ -219,6 +224,7 @@
             this.f2key.TabIndex = 9;
             this.f2key.Text = "F2";
             this.f2key.UseVisualStyleBackColor = false;
+            this.f2key.Click += new System.EventHandler(this.f2key_Click);
             // 
             // f1key
             // 
@@ -239,6 +245,7 @@
             this.f1key.TabIndex = 10;
             this.f1key.Text = "F1";
             this.f1key.UseVisualStyleBackColor = false;
+            this.f1key.Click += new System.EventHandler(this.f1key_Click);
             // 
             // f12key
             // 
@@ -259,6 +266,7 @@
             this.f12key.TabIndex = 12;
             this.f12key.Text = "F12";
             this.f12key.UseVisualStyleBackColor = false;
+            this.f12key.Click += new System.EventHandler(this.f12key_Click);
             // 
             // f11key
             // 
@@ -279,6 +287,7 @@
             this.f11key.TabIndex = 13;
             this.f11key.Text = "F11";
             this.f11key.UseVisualStyleBackColor = false;
+            this.f11key.Click += new System.EventHandler(this.f11key_Click);
             // 
             // f10key
             // 
@@ -299,6 +308,7 @@
             this.f10key.TabIndex = 14;
             this.f10key.Text = "F10";
             this.f10key.UseVisualStyleBackColor = false;
+            this.f10key.Click += new System.EventHandler(this.f10key_Click);
             // 
             // f9key
             // 
@@ -319,6 +329,7 @@
             this.f9key.TabIndex = 15;
             this.f9key.Text = "F9";
             this.f9key.UseVisualStyleBackColor = false;
+            this.f9key.Click += new System.EventHandler(this.f9key_Click);
             // 
             // f8key
             // 
@@ -339,6 +350,7 @@
             this.f8key.TabIndex = 16;
             this.f8key.Text = "F8";
             this.f8key.UseVisualStyleBackColor = false;
+            this.f8key.Click += new System.EventHandler(this.f8key_Click);
             // 
             // f7key
             // 
@@ -359,6 +371,7 @@
             this.f7key.TabIndex = 17;
             this.f7key.Text = "F7";
             this.f7key.UseVisualStyleBackColor = false;
+            this.f7key.Click += new System.EventHandler(this.f7key_Click);
             // 
             // sevenkey
             // 
@@ -379,6 +392,7 @@
             this.sevenkey.TabIndex = 30;
             this.sevenkey.Text = "7";
             this.sevenkey.UseVisualStyleBackColor = false;
+            this.sevenkey.Click += new System.EventHandler(this.sevenkey_Click);
             // 
             // eightkey
             // 
@@ -399,6 +413,7 @@
             this.eightkey.TabIndex = 29;
             this.eightkey.Text = "8";
             this.eightkey.UseVisualStyleBackColor = false;
+            this.eightkey.Click += new System.EventHandler(this.eightkey_Click);
             // 
             // ninekey
             // 
@@ -419,6 +434,7 @@
             this.ninekey.TabIndex = 28;
             this.ninekey.Text = "9";
             this.ninekey.UseVisualStyleBackColor = false;
+            this.ninekey.Click += new System.EventHandler(this.ninekey_Click);
             // 
             // zerokey
             // 
@@ -439,6 +455,7 @@
             this.zerokey.TabIndex = 27;
             this.zerokey.Text = "0";
             this.zerokey.UseVisualStyleBackColor = false;
+            this.zerokey.Click += new System.EventHandler(this.zerokey_Click);
             // 
             // onekey
             // 
@@ -459,6 +476,7 @@
             this.onekey.TabIndex = 24;
             this.onekey.Text = "1";
             this.onekey.UseVisualStyleBackColor = false;
+            this.onekey.Click += new System.EventHandler(this.onekey_Click);
             // 
             // twokey
             // 
@@ -479,6 +497,7 @@
             this.twokey.TabIndex = 23;
             this.twokey.Text = "2";
             this.twokey.UseVisualStyleBackColor = false;
+            this.twokey.Click += new System.EventHandler(this.twokey_Click);
             // 
             // threekey
             // 
@@ -499,6 +518,7 @@
             this.threekey.TabIndex = 22;
             this.threekey.Text = "3";
             this.threekey.UseVisualStyleBackColor = false;
+            this.threekey.Click += new System.EventHandler(this.threekey_Click);
             // 
             // fourkey
             // 
@@ -519,6 +539,7 @@
             this.fourkey.TabIndex = 21;
             this.fourkey.Text = "4";
             this.fourkey.UseVisualStyleBackColor = false;
+            this.fourkey.Click += new System.EventHandler(this.fourkey_Click);
             // 
             // fivekey
             // 
@@ -539,6 +560,7 @@
             this.fivekey.TabIndex = 20;
             this.fivekey.Text = "5";
             this.fivekey.UseVisualStyleBackColor = false;
+            this.fivekey.Click += new System.EventHandler(this.fivekey_Click);
             // 
             // sixkey
             // 
@@ -559,6 +581,7 @@
             this.sixkey.TabIndex = 19;
             this.sixkey.Text = "6";
             this.sixkey.UseVisualStyleBackColor = false;
+            this.sixkey.Click += new System.EventHandler(this.sixkey_Click);
             // 
             // linekey
             // 
@@ -579,6 +602,7 @@
             this.linekey.TabIndex = 18;
             this.linekey.Text = "~";
             this.linekey.UseVisualStyleBackColor = false;
+            this.linekey.Click += new System.EventHandler(this.linekey_Click);
             // 
             // ukey
             // 
@@ -599,6 +623,7 @@
             this.ukey.TabIndex = 43;
             this.ukey.Text = "U";
             this.ukey.UseVisualStyleBackColor = false;
+            this.ukey.Click += new System.EventHandler(this.ukey_Click);
             // 
             // ikey
             // 
@@ -619,6 +644,7 @@
             this.ikey.TabIndex = 42;
             this.ikey.Text = "I";
             this.ikey.UseVisualStyleBackColor = false;
+            this.ikey.Click += new System.EventHandler(this.ikey_Click);
             // 
             // okey
             // 
@@ -639,6 +665,7 @@
             this.okey.TabIndex = 41;
             this.okey.Text = "O";
             this.okey.UseVisualStyleBackColor = false;
+            this.okey.Click += new System.EventHandler(this.okey_Click);
             // 
             // pkey
             // 
@@ -659,6 +686,7 @@
             this.pkey.TabIndex = 40;
             this.pkey.Text = "P";
             this.pkey.UseVisualStyleBackColor = false;
+            this.pkey.Click += new System.EventHandler(this.pkey_Click);
             // 
             // qkey
             // 
@@ -679,6 +707,7 @@
             this.qkey.TabIndex = 37;
             this.qkey.Text = "Q";
             this.qkey.UseVisualStyleBackColor = false;
+            this.qkey.Click += new System.EventHandler(this.qkey_Click);
             // 
             // wkey
             // 
@@ -699,6 +728,7 @@
             this.wkey.TabIndex = 36;
             this.wkey.Text = "W";
             this.wkey.UseVisualStyleBackColor = false;
+            this.wkey.Click += new System.EventHandler(this.wkey_Click);
             // 
             // ekey
             // 
@@ -719,6 +749,7 @@
             this.ekey.TabIndex = 35;
             this.ekey.Text = "E";
             this.ekey.UseVisualStyleBackColor = false;
+            this.ekey.Click += new System.EventHandler(this.ekey_Click);
             // 
             // rkey
             // 
@@ -739,6 +770,7 @@
             this.rkey.TabIndex = 34;
             this.rkey.Text = "R";
             this.rkey.UseVisualStyleBackColor = false;
+            this.rkey.Click += new System.EventHandler(this.rkey_Click);
             // 
             // tkey
             // 
@@ -759,6 +791,7 @@
             this.tkey.TabIndex = 33;
             this.tkey.Text = "T";
             this.tkey.UseVisualStyleBackColor = false;
+            this.tkey.Click += new System.EventHandler(this.tkey_Click);
             // 
             // ykey
             // 
@@ -779,6 +812,7 @@
             this.ykey.TabIndex = 32;
             this.ykey.Text = "Y";
             this.ykey.UseVisualStyleBackColor = false;
+            this.ykey.Click += new System.EventHandler(this.ykey_Click);
             // 
             // jkey
             // 
@@ -799,6 +833,7 @@
             this.jkey.TabIndex = 56;
             this.jkey.Text = "J";
             this.jkey.UseVisualStyleBackColor = false;
+            this.jkey.Click += new System.EventHandler(this.jkey_Click);
             // 
             // kkey
             // 
@@ -819,6 +854,7 @@
             this.kkey.TabIndex = 55;
             this.kkey.Text = "K";
             this.kkey.UseVisualStyleBackColor = false;
+            this.kkey.Click += new System.EventHandler(this.kkey_Click);
             // 
             // lkey
             // 
@@ -839,6 +875,7 @@
             this.lkey.TabIndex = 54;
             this.lkey.Text = "L";
             this.lkey.UseVisualStyleBackColor = false;
+            this.lkey.Click += new System.EventHandler(this.lkey_Click);
             // 
             // akey
             // 
@@ -859,6 +896,7 @@
             this.akey.TabIndex = 50;
             this.akey.Text = "A";
             this.akey.UseVisualStyleBackColor = false;
+            this.akey.Click += new System.EventHandler(this.akey_Click);
             // 
             // skey
             // 
@@ -879,6 +917,7 @@
             this.skey.TabIndex = 49;
             this.skey.Text = "S";
             this.skey.UseVisualStyleBackColor = false;
+            this.skey.Click += new System.EventHandler(this.skey_Click);
             // 
             // dkey
             // 
@@ -899,6 +938,7 @@
             this.dkey.TabIndex = 48;
             this.dkey.Text = "D";
             this.dkey.UseVisualStyleBackColor = false;
+            this.dkey.Click += new System.EventHandler(this.dkey_Click);
             // 
             // fkey
             // 
@@ -919,6 +959,7 @@
             this.fkey.TabIndex = 47;
             this.fkey.Text = "F";
             this.fkey.UseVisualStyleBackColor = false;
+            this.fkey.Click += new System.EventHandler(this.fkey_Click);
             // 
             // gkey
             // 
@@ -939,6 +980,7 @@
             this.gkey.TabIndex = 46;
             this.gkey.Text = "G";
             this.gkey.UseVisualStyleBackColor = false;
+            this.gkey.Click += new System.EventHandler(this.gkey_Click);
             // 
             // hkey
             // 
@@ -959,6 +1001,7 @@
             this.hkey.TabIndex = 45;
             this.hkey.Text = "H";
             this.hkey.UseVisualStyleBackColor = false;
+            this.hkey.Click += new System.EventHandler(this.hkey_Click);
             // 
             // mkey
             // 
@@ -979,6 +1022,7 @@
             this.mkey.TabIndex = 69;
             this.mkey.Text = "M";
             this.mkey.UseVisualStyleBackColor = false;
+            this.mkey.Click += new System.EventHandler(this.mkey_Click);
             // 
             // zkey
             // 
@@ -999,6 +1043,7 @@
             this.zkey.TabIndex = 63;
             this.zkey.Text = "Z";
             this.zkey.UseVisualStyleBackColor = false;
+            this.zkey.Click += new System.EventHandler(this.zkey_Click);
             // 
             // xkey
             // 
@@ -1019,6 +1064,7 @@
             this.xkey.TabIndex = 62;
             this.xkey.Text = "X";
             this.xkey.UseVisualStyleBackColor = false;
+            this.xkey.Click += new System.EventHandler(this.xkey_Click);
             // 
             // ESC
             // 
@@ -1060,6 +1106,7 @@
             this.vkey.TabIndex = 60;
             this.vkey.Text = "V";
             this.vkey.UseVisualStyleBackColor = false;
+            this.vkey.Click += new System.EventHandler(this.vkey_Click);
             // 
             // bkey
             // 
@@ -1080,6 +1127,7 @@
             this.bkey.TabIndex = 59;
             this.bkey.Text = "B";
             this.bkey.UseVisualStyleBackColor = false;
+            this.bkey.Click += new System.EventHandler(this.bkey_Click);
             // 
             // nkey
             // 
@@ -1100,6 +1148,7 @@
             this.nkey.TabIndex = 58;
             this.nkey.Text = "N";
             this.nkey.UseVisualStyleBackColor = false;
+            this.nkey.Click += new System.EventHandler(this.nkey_Click);
             // 
             // tabkey
             // 
@@ -1120,6 +1169,7 @@
             this.tabkey.TabIndex = 70;
             this.tabkey.Text = "Tab";
             this.tabkey.UseVisualStyleBackColor = false;
+            this.tabkey.Click += new System.EventHandler(this.tabkey_Click);
             // 
             // enterkey
             // 
@@ -1140,6 +1190,7 @@
             this.enterkey.TabIndex = 71;
             this.enterkey.Text = "Enter";
             this.enterkey.UseVisualStyleBackColor = false;
+            this.enterkey.Click += new System.EventHandler(this.enterkey_Click);
             // 
             // ctrlkey
             // 
@@ -1160,6 +1211,7 @@
             this.ctrlkey.TabIndex = 72;
             this.ctrlkey.Text = "Ctrl";
             this.ctrlkey.UseVisualStyleBackColor = false;
+            this.ctrlkey.Click += new System.EventHandler(this.ctrlkey_Click);
             // 
             // upkey
             // 
@@ -1180,6 +1232,7 @@
             this.upkey.TabIndex = 73;
             this.upkey.Text = "Up";
             this.upkey.UseVisualStyleBackColor = false;
+            this.upkey.Click += new System.EventHandler(this.upkey_Click);
             // 
             // backkey
             // 
@@ -1200,6 +1253,7 @@
             this.backkey.TabIndex = 74;
             this.backkey.Text = "Back";
             this.backkey.UseVisualStyleBackColor = false;
+            this.backkey.Click += new System.EventHandler(this.backkey_Click);
             // 
             // shiftkey
             // 
@@ -1220,6 +1274,7 @@
             this.shiftkey.TabIndex = 75;
             this.shiftkey.Text = "Shift";
             this.shiftkey.UseVisualStyleBackColor = false;
+            this.shiftkey.Click += new System.EventHandler(this.shiftkey_Click);
             // 
             // deletekey
             // 
@@ -1240,6 +1295,7 @@
             this.deletekey.TabIndex = 77;
             this.deletekey.Text = "Delete";
             this.deletekey.UseVisualStyleBackColor = false;
+            this.deletekey.Click += new System.EventHandler(this.deletekey_Click);
             // 
             // insertkey
             // 
@@ -1260,6 +1316,7 @@
             this.insertkey.TabIndex = 78;
             this.insertkey.Text = "InSert";
             this.insertkey.UseVisualStyleBackColor = false;
+            this.insertkey.Click += new System.EventHandler(this.insertkey_Click);
             // 
             // altkey
             // 
@@ -1280,6 +1337,7 @@
             this.altkey.TabIndex = 79;
             this.altkey.Text = "Alt";
             this.altkey.UseVisualStyleBackColor = false;
+            this.altkey.Click += new System.EventHandler(this.altkey_Click);
             // 
             // spacekey
             // 
@@ -1300,6 +1358,7 @@
             this.spacekey.TabIndex = 80;
             this.spacekey.Text = "Space";
             this.spacekey.UseVisualStyleBackColor = false;
+            this.spacekey.Click += new System.EventHandler(this.spacekey_Click);
             // 
             // leftkey
             // 
@@ -1320,6 +1379,7 @@
             this.leftkey.TabIndex = 81;
             this.leftkey.Text = "Left";
             this.leftkey.UseVisualStyleBackColor = false;
+            this.leftkey.Click += new System.EventHandler(this.leftkey_Click);
             // 
             // downkey
             // 
@@ -1340,6 +1400,7 @@
             this.downkey.TabIndex = 82;
             this.downkey.Text = "Down";
             this.downkey.UseVisualStyleBackColor = false;
+            this.downkey.Click += new System.EventHandler(this.downkey_Click);
             // 
             // rightkey
             // 
@@ -1360,6 +1421,7 @@
             this.rightkey.TabIndex = 83;
             this.rightkey.Text = "Right";
             this.rightkey.UseVisualStyleBackColor = false;
+            this.rightkey.Click += new System.EventHandler(this.rightkey_Click);
             // 
             // winkey
             // 
@@ -1380,6 +1442,7 @@
             this.winkey.TabIndex = 84;
             this.winkey.Text = "Win";
             this.winkey.UseVisualStyleBackColor = false;
+            this.winkey.Click += new System.EventHandler(this.winkey_Click);
             // 
             // endkey
             // 
@@ -1400,6 +1463,7 @@
             this.endkey.TabIndex = 85;
             this.endkey.Text = "End";
             this.endkey.UseVisualStyleBackColor = false;
+            this.endkey.Click += new System.EventHandler(this.endkey_Click);
             // 
             // pgdnkey
             // 
@@ -1420,6 +1484,7 @@
             this.pgdnkey.TabIndex = 86;
             this.pgdnkey.Text = "PgDn";
             this.pgdnkey.UseVisualStyleBackColor = false;
+            this.pgdnkey.Click += new System.EventHandler(this.pgdnkey_Click);
             // 
             // pgupkey
             // 
@@ -1440,6 +1505,7 @@
             this.pgupkey.TabIndex = 87;
             this.pgupkey.Text = "Pgup";
             this.pgupkey.UseVisualStyleBackColor = false;
+            this.pgupkey.Click += new System.EventHandler(this.pgupkey_Click);
             // 
             // homekey
             // 
@@ -1460,6 +1526,7 @@
             this.homekey.TabIndex = 88;
             this.homekey.Text = "Home";
             this.homekey.UseVisualStyleBackColor = false;
+            this.homekey.Click += new System.EventHandler(this.homekey_Click);
             // 
             // printkey
             // 
@@ -1480,6 +1547,7 @@
             this.printkey.TabIndex = 89;
             this.printkey.Text = "PrtSc";
             this.printkey.UseVisualStyleBackColor = false;
+            this.printkey.Click += new System.EventHandler(this.printkey_Click);
             // 
             // button43
             // 
@@ -1500,6 +1568,7 @@
             this.button43.TabIndex = 90;
             this.button43.Text = "★";
             this.button43.UseVisualStyleBackColor = false;
+            this.button43.Click += new System.EventHandler(this.button43_Click);
             // 
             // KeyBoard
             // 
