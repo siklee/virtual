@@ -23,9 +23,8 @@ namespace virtualKeyBoard.KeySet
         {
             this.key = key;
             this.outputkey = outputkey;
-            label1.Name = outputkey;
-
             InitializeComponent();
+            this.label1.Text = outputkey;
         }
         public TestKey()
         {
@@ -63,6 +62,30 @@ namespace virtualKeyBoard.KeySet
                 infomation.locationX = MousePosition.X;
                 infomation.locationY = MousePosition.Y;
                 
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            if (SetOfKey.keyBoardMode == 1)
+            {
+                SendKeys.Send(key);
+                using (System.Media.SoundPlayer player = new System.Media.SoundPlayer(global::virtualKeyBoard.Properties.Resources.marine))
+                {
+                    player.Play();
+                }
+
+            }
+        }
+
+        private void label1_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (SetOfKey.keyBoardMode == 2)
+            {
+                this.SetDesktopLocation(MousePosition.X, MousePosition.Y);
+                infomation.locationX = MousePosition.X;
+                infomation.locationY = MousePosition.Y;
+
             }
         }
     }

@@ -35,9 +35,11 @@ namespace virtualKeyBoard.KeySet
             // 
             // label1
             // 
+            this.label1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.CausesValidation = false;
             this.label1.Font = new System.Drawing.Font("굴림", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(28, 30);
@@ -46,6 +48,8 @@ namespace virtualKeyBoard.KeySet
             this.label1.TabIndex = 0;
             this.label1.Text = "A";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.label1_MouseUp);
             // 
             // TestKey
             // 
