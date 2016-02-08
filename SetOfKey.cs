@@ -89,7 +89,7 @@ namespace virtualKeyBoard
             keyValue[50] = new TestKey("{UP}", "UP");
             keyValue[51] = new TestKey("{DEL}", "DEL");
             keyValue[52] = new TestKey("+", "SHIFT");
-            keyValue[53] = new TestKey("{HELP}", "WIN");
+            keyValue[53] = new TestKey("^{ESC}", "WIN");
             keyValue[54] = new TestKey("{PGDN}", "PGDN");
             keyValue[55] = new TestKey("Z", "Z");
             keyValue[56] = new TestKey("X", "X");
@@ -98,7 +98,7 @@ namespace virtualKeyBoard
             keyValue[59] = new TestKey("B", "B");
             keyValue[60] = new TestKey("N", "N");
             keyValue[61] = new TestKey("M", "M");
-            keyValue[62] = new TestKey("{SPACE}", "SPACE");
+            keyValue[62] = new TestKey(" ", "SPACE");
             keyValue[63] = new TestKey("{LEFT}", "LEFT");
             keyValue[64] = new TestKey("{DOWN}", "DOWN");
             keyValue[65] = new TestKey("{RIGHT}", "RIGHT");

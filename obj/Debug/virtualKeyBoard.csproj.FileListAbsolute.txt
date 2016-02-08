@@ -9,4 +9,3 @@ C:\Users\USER\Desktop\workspace\c#\virtualkeyboard\virtualKeyBoard\obj\Debug\vir
 C:\Users\USER\Desktop\workspace\c#\virtualkeyboard\virtualKeyBoard\obj\Debug\virtualKeyBoard.Setting.resources
 C:\Users\USER\Desktop\workspace\c#\virtualkeyboard\virtualKeyBoard\obj\Debug\virtualKeyBoard.KeyBoard.resources
 C:\Users\USER\Desktop\workspace\c#\virtualkeyboard\virtualKeyBoard\obj\Debug\virtualKeyBoard.KeySet.TestKey.resources
-C:\Users\USER\Desktop\workspace\c#\virtualkeyboard\virtualKeyBoard\obj\Debug\virtualKeyBoard.csprojResolveAssemblyReference.cache
