@@ -8,23 +8,30 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;
+using System.Runtime.InteropServices;
+using System.Threading;
 
 namespace virtualKeyBoard.KeySet
 {
     
     public partial class TestKey : Form
     {
+        [DllImport("user32.dll")]
+        static extern void keybd_event(byte bVk, byte bScan, uint dwFlags, int dwExtraInfo);
+
         public Keyinfo infomation = new Keyinfo();
-        public string key;
+        public byte key;
         public string outputkey;
+        public bool keyOn;
 
 
-        public TestKey(string key,string outputkey)
+        public TestKey(byte key,string outputkey)
         {
             this.key = key;
             this.outputkey = outputkey;
             InitializeComponent();
             this.label1.Text = outputkey;
+            this.keyOn = false;
         }
         public TestKey()
         {
@@ -45,7 +52,27 @@ namespace virtualKeyBoard.KeySet
         {
             if (SetOfKey.keyBoardMode == 1)
             {
-                SendKeys.Send(key);
+                if(key == (byte)Keys.ShiftKey || key == (byte)Keys.Menu || key == (byte)Keys.ControlKey)
+                {
+                    if(keyOn == true)
+                    {
+                        keybd_event(key, 0, 0x02, 0);
+                        keyOn = false;
+                        this.BackColor= System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+                    }
+                    else if(keyOn == false)
+                    {
+                        keybd_event(key, 0, 0, 0);
+                        keyOn = true;
+                        this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+                    }
+                }
+                else
+                {
+                    keybd_event(key, 0, 0, 0);
+                    keybd_event(key, 0, 0x02, 0);
+                }
+                
                 using (System.Media.SoundPlayer player = new System.Media.SoundPlayer(global::virtualKeyBoard.Properties.Resources.marine))
                 {
                     player.Play();
@@ -69,7 +96,26 @@ namespace virtualKeyBoard.KeySet
         {
             if (SetOfKey.keyBoardMode == 1)
             {
-                SendKeys.Send(key);
+                if (key == (byte)Keys.ShiftKey || key == (byte)Keys.Menu || key == (byte)Keys.ControlKey)
+                {
+                    if (keyOn == true)
+                    {
+                        keybd_event(key, 0, 0x02, 0);
+                        keyOn = false;
+                        this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+                    }
+                    else if (keyOn == false)
+                    {
+                        keybd_event(key, 0, 0, 0);
+                        keyOn = true;
+                        this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+                    }
+                }
+                else
+                {
+                    keybd_event(key, 0, 0, 0);
+                    keybd_event(key, 0, 0x02, 0);
+                }
                 using (System.Media.SoundPlayer player = new System.Media.SoundPlayer(global::virtualKeyBoard.Properties.Resources.marine))
                 {
                     player.Play();

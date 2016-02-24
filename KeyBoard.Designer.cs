@@ -1576,6 +1576,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(887, 327);
+            this.ControlBox = false;
             this.Controls.Add(this.button43);
             this.Controls.Add(this.printkey);
             this.Controls.Add(this.homekey);
@@ -1646,6 +1647,7 @@
             this.Controls.Add(this.f5key);
             this.Controls.Add(this.f6key);
             this.Controls.Add(this.ckey);
+            this.Cursor = System.Windows.Forms.Cursors.No;
             this.Name = "KeyBoard";
             this.Text = "Form3";
             this.ResumeLayout(false);

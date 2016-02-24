@@ -57,9 +57,10 @@ namespace virtualKeyBoard
                 IFormatter formatter = new BinaryFormatter();
                 string fileName = "keySetting" + i + ".bin";
                 Stream stream = new FileStream(fileName, FileMode.Create, FileAccess.Write, FileShare.None);
-                formatter.Serialize(stream, inKey.keyValue[i].infomation);
+                formatter.Serialize(stream, inKey.keyValue[i].infomation);              
                 stream.Close();
             }
+           
         }
 
 
@@ -80,6 +81,7 @@ namespace virtualKeyBoard
                     outKey.keyValue[i].Show();
                     outKey.keyValue[i].SetDesktopLocation(outKey.keyValue[i].infomation.locationX, outKey.keyValue[i].infomation.locationY);
                 }
+               
             }
         }   
     }

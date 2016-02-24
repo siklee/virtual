@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -24,9 +25,10 @@ namespace virtualKeyBoard
             InitializeComponent();
         }
 
+
+
        
         // 키보드 클릭 이벤트 
-
             
 
         private void ESC_Click(object sender, EventArgs e)
@@ -34,7 +36,7 @@ namespace virtualKeyBoard
             popUpKey(0, ESC);
         }
 
-        private void f1key_Click(object sender, EventArgs e)
+    private void f1key_Click(object sender, EventArgs e)
         {
             popUpKey(1,f1key);
         }

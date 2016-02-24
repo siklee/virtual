@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Controler));
             this.SuspendLayout();
             // 
             // Controler
@@ -40,6 +41,7 @@
             this.ClientSize = new System.Drawing.Size(288, 80);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Controler";
             this.Opacity = 0.7D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
