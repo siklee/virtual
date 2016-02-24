@@ -50,6 +50,7 @@ namespace virtualKeyBoard.KeySet
 
         private void TestKey_Click(object sender, EventArgs e)
         {
+            /*
             if (SetOfKey.keyBoardMode == 1)
             {
                 if(key == (byte)Keys.ShiftKey || key == (byte)Keys.Menu || key == (byte)Keys.ControlKey)
@@ -70,6 +71,7 @@ namespace virtualKeyBoard.KeySet
                 else
                 {
                     keybd_event(key, 0, 0, 0);
+                    Thread.Sleep(100);
                     keybd_event(key, 0, 0x02, 0);
                 }
                 
@@ -79,21 +81,13 @@ namespace virtualKeyBoard.KeySet
                 }
               
             }
+            */
         }
 
-        private void TestKey_MouseUp(object sender, MouseEventArgs e)
-        {
-            if (SetOfKey.keyBoardMode == 2)
-            {
-                this.SetDesktopLocation(MousePosition.X, MousePosition.Y);
-                infomation.locationX = MousePosition.X;
-                infomation.locationY = MousePosition.Y;
-                
-            }
-        }
-
+   
         private void label1_Click(object sender, EventArgs e)
         {
+            /*
             if (SetOfKey.keyBoardMode == 1)
             {
                 if (key == (byte)Keys.ShiftKey || key == (byte)Keys.Menu || key == (byte)Keys.ControlKey)
@@ -114,6 +108,7 @@ namespace virtualKeyBoard.KeySet
                 else
                 {
                     keybd_event(key, 0, 0, 0);
+                    Thread.Sleep(100);
                     keybd_event(key, 0, 0x02, 0);
                 }
                 using (System.Media.SoundPlayer player = new System.Media.SoundPlayer(global::virtualKeyBoard.Properties.Resources.marine))
@@ -123,11 +118,18 @@ namespace virtualKeyBoard.KeySet
                 
 
             }
+            */
         }
 
         private void label1_MouseUp(object sender, MouseEventArgs e)
         {
-            if (SetOfKey.keyBoardMode == 2)
+
+            if (SetOfKey.keyBoardMode == 1)
+            {
+                keybd_event(key, 0, 0x02, 0);
+                this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            }
+            else if (SetOfKey.keyBoardMode == 2)
             {
                 this.SetDesktopLocation(MousePosition.X, MousePosition.Y);
                 infomation.locationX = MousePosition.X;
@@ -135,6 +137,42 @@ namespace virtualKeyBoard.KeySet
 
             }
         }
+
+        private void label1_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (SetOfKey.keyBoardMode == 1)
+            {
+                keybd_event(key, 0, 0, 0);
+                this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            }
+        }
+
+        private void TestKey_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (SetOfKey.keyBoardMode == 1)
+            {
+                keybd_event(key, 0, 0x02, 0);
+                this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            }
+            else if (SetOfKey.keyBoardMode == 2)
+            {
+                this.SetDesktopLocation(MousePosition.X, MousePosition.Y);
+                infomation.locationX = MousePosition.X;
+                infomation.locationY = MousePosition.Y;
+
+            }
+        }
+
+        private void TestKey_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (SetOfKey.keyBoardMode == 1)
+            {
+                keybd_event(key, 0, 0, 0);
+                this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            }
+        }
+
+        
     }
 
     [Serializable]

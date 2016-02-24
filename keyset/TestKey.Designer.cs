@@ -49,6 +49,7 @@ namespace virtualKeyBoard.KeySet
             this.label1.Text = "A";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label1_MouseDown);
             this.label1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.label1_MouseUp);
             // 
             // TestKey
@@ -71,6 +72,7 @@ namespace virtualKeyBoard.KeySet
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.TopMost = true;
             this.Click += new System.EventHandler(this.TestKey_Click);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.TestKey_MouseDown);
             this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.TestKey_MouseUp);
             this.ResumeLayout(false);
 
